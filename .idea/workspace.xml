@@ -1,12 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="98b51b08-0f91-452d-962e-2394bf0a5803" name="Default Changelist" comment="" />
+    <list default="true" id="98b51b08-0f91-452d-962e-2394bf0a5803" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongodb/WiredTiger" beforeDir="false" afterPath="$PROJECT_DIR$/mongodb/WiredTiger" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongodb/WiredTiger.lock" beforeDir="false" afterPath="$PROJECT_DIR$/mongodb/WiredTiger.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongodb/WiredTiger.turtle" beforeDir="false" afterPath="$PROJECT_DIR$/mongodb/WiredTiger.turtle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongodb/WiredTiger.wt" beforeDir="false" afterPath="$PROJECT_DIR$/mongodb/WiredTiger.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongodb/_mdb_catalog.wt" beforeDir="false" afterPath="$PROJECT_DIR$/mongodb/_mdb_catalog.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongodb/collection-0-6835269049312523831.wt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongodb/collection-2-6835269049312523831.wt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongodb/collection-4-6835269049312523831.wt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongodb/collection-7-6835269049312523831.wt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongodb/collection-9-6835269049312523831.wt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongodb/diagnostic.data/metrics.2019-05-20T12-52-40Z-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongodb/diagnostic.data/metrics.2019-05-20T14-36-50Z-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongodb/diagnostic.data/metrics.interim" beforeDir="false" afterPath="$PROJECT_DIR$/mongodb/diagnostic.data/metrics.interim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongodb/index-1-6835269049312523831.wt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongodb/index-10-6835269049312523831.wt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongodb/index-11-6835269049312523831.wt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongodb/index-3-6835269049312523831.wt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongodb/index-5-6835269049312523831.wt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongodb/index-6-6835269049312523831.wt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongodb/index-8-6835269049312523831.wt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongodb/journal/WiredTigerLog.0000000002" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongodb/mongod.lock" beforeDir="false" afterPath="$PROJECT_DIR$/mongodb/mongod.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongodb/sizeStorer.wt" beforeDir="false" afterPath="$PROJECT_DIR$/mongodb/sizeStorer.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sebamaster-movie-backend-master/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/sebamaster-movie-backend-master/package.json" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sebamaster-movie-backend-master/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sebamaster-movie-frontend-master/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -28,15 +78,31 @@
               <item name="WAE_SS19_App" type="b2602c69:ProjectViewProjectNode" />
               <item name="WAE_SS19_App" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="WAE_SS19_App" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WAE_SS19_App" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WAE_SS19_App" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WAE_SS19_App" type="462c0819:PsiDirectoryNode" />
+              <item name="sebamaster-movie-backend-master" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WAE_SS19_App" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WAE_SS19_App" type="462c0819:PsiDirectoryNode" />
+              <item name="sebamaster-movie-frontend-master" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -66,27 +132,24 @@
       <option name="presentableId" value="Default" />
       <updated>1561754941326</updated>
       <workItem from="1561754943839" duration="241000" />
+      <workItem from="1562001356622" duration="1123000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="241000" />
+    <option name="totallyTimeSpent" value="1364000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32936078" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -94,19 +157,42 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/sebamaster-movie-frontend-master/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sebamaster-movie-backend-master/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
