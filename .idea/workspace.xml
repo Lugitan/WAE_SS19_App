@@ -2,31 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98b51b08-0f91-452d-962e-2394bf0a5803" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongodb/WiredTiger" beforeDir="false" afterPath="$PROJECT_DIR$/mongodb/WiredTiger" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongodb/WiredTiger.lock" beforeDir="false" afterPath="$PROJECT_DIR$/mongodb/WiredTiger.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mongodb/WiredTiger.turtle" beforeDir="false" afterPath="$PROJECT_DIR$/mongodb/WiredTiger.turtle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mongodb/WiredTiger.wt" beforeDir="false" afterPath="$PROJECT_DIR$/mongodb/WiredTiger.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongodb/_mdb_catalog.wt" beforeDir="false" afterPath="$PROJECT_DIR$/mongodb/_mdb_catalog.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongodb/collection-0-6835269049312523831.wt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongodb/collection-2-6835269049312523831.wt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongodb/collection-4-6835269049312523831.wt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongodb/collection-7-6835269049312523831.wt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongodb/collection-9-6835269049312523831.wt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongodb/diagnostic.data/metrics.2019-05-20T12-52-40Z-00000" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongodb/diagnostic.data/metrics.2019-05-20T14-36-50Z-00000" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongodb/diagnostic.data/metrics.interim" beforeDir="false" afterPath="$PROJECT_DIR$/mongodb/diagnostic.data/metrics.interim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongodb/index-1-6835269049312523831.wt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongodb/index-10-6835269049312523831.wt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongodb/index-11-6835269049312523831.wt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongodb/index-3-6835269049312523831.wt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongodb/index-5-6835269049312523831.wt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongodb/index-6-6835269049312523831.wt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongodb/index-8-6835269049312523831.wt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongodb/journal/WiredTigerLog.0000000002" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongodb/mongod.lock" beforeDir="false" afterPath="$PROJECT_DIR$/mongodb/mongod.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongodb/collection-2-8096780908184482795.wt" beforeDir="false" afterPath="$PROJECT_DIR$/mongodb/collection-2-8096780908184482795.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongodb/index-3-8096780908184482795.wt" beforeDir="false" afterPath="$PROJECT_DIR$/mongodb/index-3-8096780908184482795.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongodb/journal/WiredTigerLog.0000000001" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/mongodb/sizeStorer.wt" beforeDir="false" afterPath="$PROJECT_DIR$/mongodb/sizeStorer.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sebamaster-movie-backend-master/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/sebamaster-movie-backend-master/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sebamaster-movie-frontend-master/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/sebamaster-movie-frontend-master/src/App.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,32 +18,77 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sebamaster-movie-backend-master/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sebamaster-movie-backend-master/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sebamaster-movie-frontend-master/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/sebamaster-movie-backend-master/src/api.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="30" column="10" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sebamaster-movie-backend-master/src/routes/movie.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sebamaster-movie-backend-master/src/controllers/movie.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1105">
+              <caret line="65" selection-start-line="65" selection-end-line="65" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sebamaster-movie-backend-master/src/models/movie.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="30" lean-forward="true" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>port</find>
+      <find>api</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/sebamaster-movie-backend-master/dump/moviedb/users.metadata.json" />
+        <option value="$PROJECT_DIR$/sebamaster-movie-backend-master/src/controllers/movie.js" />
+        <option value="$PROJECT_DIR$/sebamaster-movie-frontend-master/src/App.js" />
+        <option value="$PROJECT_DIR$/sebamaster-movie-backend-master/index.js" />
+      </list>
+    </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
@@ -71,6 +100,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -81,23 +111,52 @@
             <path>
               <item name="WAE_SS19_App" type="b2602c69:ProjectViewProjectNode" />
               <item name="WAE_SS19_App" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WAE_SS19_App" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WAE_SS19_App" type="462c0819:PsiDirectoryNode" />
               <item name="sebamaster-movie-backend-master" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="WAE_SS19_App" type="b2602c69:ProjectViewProjectNode" />
               <item name="WAE_SS19_App" type="462c0819:PsiDirectoryNode" />
-              <item name="sebamaster-movie-frontend-master" type="462c0819:PsiDirectoryNode" />
+              <item name="sebamaster-movie-backend-master" type="462c0819:PsiDirectoryNode" />
+              <item name="dump" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WAE_SS19_App" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WAE_SS19_App" type="462c0819:PsiDirectoryNode" />
+              <item name="sebamaster-movie-backend-master" type="462c0819:PsiDirectoryNode" />
+              <item name="dump" type="462c0819:PsiDirectoryNode" />
+              <item name="moviedb" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WAE_SS19_App" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WAE_SS19_App" type="462c0819:PsiDirectoryNode" />
+              <item name="sebamaster-movie-backend-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WAE_SS19_App" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WAE_SS19_App" type="462c0819:PsiDirectoryNode" />
+              <item name="sebamaster-movie-backend-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WAE_SS19_App" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WAE_SS19_App" type="462c0819:PsiDirectoryNode" />
+              <item name="sebamaster-movie-backend-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WAE_SS19_App" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WAE_SS19_App" type="462c0819:PsiDirectoryNode" />
+              <item name="sebamaster-movie-backend-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -132,18 +191,19 @@
       <option name="presentableId" value="Default" />
       <updated>1561754941326</updated>
       <workItem from="1561754943839" duration="241000" />
-      <workItem from="1562001356622" duration="1123000" />
+      <workItem from="1562001356622" duration="2869000" />
+      <workItem from="1562180545631" duration="6101000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1364000" />
+    <option name="totallyTimeSpent" value="9211000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18336888" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -160,7 +220,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.30877572" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -177,11 +237,10 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sebamaster-movie-frontend-master/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/sebamaster-movie-backend-master/dump/moviedb/users.metadata.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="36" selection-start-column="36" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -190,6 +249,128 @@
         <state split_layout="SPLIT">
           <first_editor />
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sebamaster-movie-frontend-master/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sebamaster-movie-backend-master/dump/moviedb/movies.bson">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sebamaster-movie-backend-master/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sebamaster-movie-frontend-master/src/components/Footer.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sebamaster-movie-frontend-master/src/components/Header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+          <folding>
+            <element signature="e#15#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sebamaster-movie-frontend-master/src/components/UserSignup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-102" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sebamaster-movie-frontend-master/src/components/UserLogin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#15#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sebamaster-movie-frontend-master/src/views/UserLoginView.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sebamaster-movie-frontend-master/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+          <folding>
+            <element signature="e#15#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sebamaster-movie-frontend-master/src/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sebamaster-movie-frontend-master/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sebamaster-movie-backend-master/src/controllers/auth.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1314">
+          <caret line="10" column="59" selection-start-line="10" selection-start-column="59" selection-end-line="10" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sebamaster-movie-backend-master/src/middlewares.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sebamaster-movie-backend-master/src/routes/auth.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sebamaster-movie-backend-master/src/models/movie.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="30" lean-forward="true" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sebamaster-movie-backend-master/dump/moviedb/movies.metadata.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sebamaster-movie-backend-master/src/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="2" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sebamaster-movie-backend-master/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sebamaster-movie-backend-master/src/api.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="10" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sebamaster-movie-backend-master/src/routes/movie.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sebamaster-movie-backend-master/src/controllers/movie.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1105">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
         </state>
       </provider>
     </entry>
