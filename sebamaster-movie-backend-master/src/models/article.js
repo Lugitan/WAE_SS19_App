@@ -4,11 +4,15 @@ const mongoose = require('mongoose');
 
 // Define the article schema
 
+const Schema = mongoose.Schema,
+    ObjectId = Schema.ObjectId;
+
 const ArticleSchema  = new mongoose.Schema({
     title: {
         type: String,
         required: true
     },
+    game: ObjectId,
     content: String,
     date: Date,
     sponsored: Boolean,
