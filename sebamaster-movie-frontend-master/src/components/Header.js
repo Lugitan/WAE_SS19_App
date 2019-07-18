@@ -2,7 +2,8 @@
 
 import React from 'react';
 import { withRouter } from 'react-router-dom';
-import { Menu, MenuItem, Icon, Input, Button} from 'semantic-ui-react'
+import { Menu, MenuItem, Icon, Input, Button} from 'semantic-ui-react';
+import TeamService from './../services/TeamService';
 
 import KebabMenu from './KebabMenu';
 
@@ -27,7 +28,9 @@ class Header extends React.Component {
     handleSearch(e) {
         const searchbar = document.getElementById("searchbar");
         if (searchbar.value !== "") {
-            console.log(searchbar.value)
+            TeamService.getTeams().then((data)=>{
+                console.log(data);
+            });
         }
     }
 
