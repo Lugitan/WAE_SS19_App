@@ -4,6 +4,7 @@ import React from 'react';
 
 import Header from './Header';
 import { Footer } from './Footer';
+import SideBarMenu from './Sidebar';
 
 
 export default class Page extends React.Component {
@@ -26,6 +27,7 @@ export default class Page extends React.Component {
         return (
             <section>
                 <Header title={this.state.title} />
+                <SideBarMenu />
                 {this.props.children}
                 <Footer />
             </section>
