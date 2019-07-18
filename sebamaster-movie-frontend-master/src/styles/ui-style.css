@@ -1,0 +1,7 @@
+.ui.sidebar.custom {
+    top: initial !important;
+}
+
+.ui.vertical.menu.custom {
+    position: fixed;
+}
