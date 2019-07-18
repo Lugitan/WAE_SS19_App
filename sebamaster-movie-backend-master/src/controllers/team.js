@@ -38,7 +38,7 @@ const read   = (req, res) => {
 
 
 //Todo: remove hardcoded search
-const read2   = (req, res) => {
+const search   = (req, res) => {
     TeamModel.find({team_name: "Team Liquid"}).exec()
         .then(team => {
             res.status(200).json(team)
@@ -89,7 +89,7 @@ const list  = (req, res) => {
 module.exports = {
     create,
     read,
-    read2,
+    search,
     update,
     remove,
     list
