@@ -2,10 +2,9 @@
 
 import React from 'react';
 import { withRouter } from 'react-router-dom';
-import { Button, Icon, Image, Menu, Segment, Sidebar, Grid } from 'semantic-ui-react'
+import { Menu, MenuItem, Icon, Input, Button} from 'semantic-ui-react'
 
 import KebabMenu from './KebabMenu';
-import SideBarMenu from './Sidebar';
 
 
 class Header extends React.Component {
@@ -13,25 +12,40 @@ class Header extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            activeItem: 'ow'
+            activeItem: 'overwatch'
         }
 
         this.handleItemClick = this.handleItemClick.bind(this);
+        this.handleSearch= this.handleSearch.bind(this);
     }
 
-    handleItemClick(name) {(e, {name}) =>
+    handleItemClick() {(e, name) => {
         this.setState({ activeItem: name })
         console.log(name)
+    }}
+
+    handleSearch(e) {
+        const searchbar = document.getElementById("searchbar");
+        if (searchbar.value !== "") {
+            console.log(searchbar.value)
+        }
     }
 
     render() {
         const { activeItem }= this.state;
 
         return (
-            <Menu tabular>
-                <Menu.Item name='ow' active={activeItem === 'ow'} onClick={this.handleItemClick} />
+            <Menu tabular size='huge'>
+                <MenuItem name="" width="150px"> <Icon name='gamepad' /></MenuItem>
+                <Menu.Item name='overwatch' active={activeItem === 'overwatch'} onClick={this.handleItemClick} />
                 <Menu.Item name='csgo' active={activeItem === 'csgo'} onClick={this.handleItemClick} />
                 <Menu.Item name='lol' active={activeItem === 'lol'} onClick={this.handleItemClick} />
+                <Menu.Menu position="right">
+                    <Menu.Item onClick={this.handleSearch}>Search</Menu.Item>
+                    <Menu.Item>
+                        <Input icon='search' placeholder='Search...' id="searchbar"/>
+                    </Menu.Item>
+                </Menu.Menu>
             </Menu>
             // <Toolbar
             //     colored
