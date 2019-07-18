@@ -8,11 +8,11 @@ const Schema = mongoose.Schema,
     ObjectId = Schema.ObjectId;
 
 const TeamSchema  = new mongoose.Schema({
-        team_name: String,
-        game: ObjectId,
-        wins: Number,
-        losses: Number,
-    },
+    team_name: String,
+    game: String,
+    wins: Number,
+    losses: Number,
+},
     {collection : 'team'});
 
 TeamSchema.set('versionKey', false);
