@@ -2,36 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98b51b08-0f91-452d-962e-2394bf0a5803" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dump/admin/system.version.bson" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dump/admin/system.version.metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dump/moviedb/article.bson" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dump/moviedb/article.metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dump/moviedb/movies.bson" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dump/moviedb/movies.metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dump/moviedb/team.bson" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dump/moviedb/team.metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dump/moviedb/users.bson" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dump/moviedb/users.metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mongodb/WiredTiger.turtle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mongodb/collection-0-7550225875545160984.wt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mongodb/collection-2-7550225875545160984.wt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mongodb/collection-7-7550225875545160984.wt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mongodb/collection-9-7550225875545160984.wt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mongodb/diagnostic.data/metrics.2019-07-18T11-14-01Z-00000" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mongodb/diagnostic.data/metrics.2019-07-18T11-19-41Z-00000" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mongodb/diagnostic.data/metrics.interim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mongodb/index-1-7550225875545160984.wt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mongodb/index-10-7550225875545160984.wt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mongodb/index-3-7550225875545160984.wt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mongodb/index-4-7550225875545160984.wt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mongodb/index-8-7550225875545160984.wt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mongodb/journal/WiredTigerLog.0000000007" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mongodb/journal/WiredTigerPreplog.0000000003" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mongodb/journal/WiredTigerPreplog.0000000004" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sebamaster-movie-backend-master/src/controllers/team.js" beforeDir="false" afterPath="$PROJECT_DIR$/sebamaster-movie-backend-master/src/controllers/team.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sebamaster-movie-backend-master/src/models/team.js" beforeDir="false" afterPath="$PROJECT_DIR$/sebamaster-movie-backend-master/src/models/team.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sebamaster-movie-backend-master/src/routes/team.js" beforeDir="false" afterPath="$PROJECT_DIR$/sebamaster-movie-backend-master/src/routes/team.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +25,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sebamaster-movie-frontend-master/src/services/MovieService.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="405">
@@ -62,11 +34,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sebamaster-movie-backend-master/src/controllers/article.js">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="9" selection-end-line="83" selection-end-column="2" />
+            <state relative-caret-position="726">
+              <caret line="64" column="5" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -165,6 +137,7 @@
         <option value="$PROJECT_DIR$/sebamaster-movie-backend-master/src/models/team.js" />
         <option value="$PROJECT_DIR$/sebamaster-movie-backend-master/src/routes/team.js" />
         <option value="$PROJECT_DIR$/sebamaster-movie-backend-master/src/controllers/team.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -184,70 +157,6 @@
             <path>
               <item name="WAE_SS19_App" type="b2602c69:ProjectViewProjectNode" />
               <item name="WAE_SS19_App" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WAE_SS19_App" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WAE_SS19_App" type="462c0819:PsiDirectoryNode" />
-              <item name="sebamaster-movie-backend-master" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WAE_SS19_App" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WAE_SS19_App" type="462c0819:PsiDirectoryNode" />
-              <item name="sebamaster-movie-backend-master" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WAE_SS19_App" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WAE_SS19_App" type="462c0819:PsiDirectoryNode" />
-              <item name="sebamaster-movie-backend-master" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WAE_SS19_App" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WAE_SS19_App" type="462c0819:PsiDirectoryNode" />
-              <item name="sebamaster-movie-backend-master" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WAE_SS19_App" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WAE_SS19_App" type="462c0819:PsiDirectoryNode" />
-              <item name="sebamaster-movie-backend-master" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WAE_SS19_App" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WAE_SS19_App" type="462c0819:PsiDirectoryNode" />
-              <item name="sebamaster-movie-frontend-master" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WAE_SS19_App" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WAE_SS19_App" type="462c0819:PsiDirectoryNode" />
-              <item name="sebamaster-movie-frontend-master" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WAE_SS19_App" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WAE_SS19_App" type="462c0819:PsiDirectoryNode" />
-              <item name="sebamaster-movie-frontend-master" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WAE_SS19_App" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WAE_SS19_App" type="462c0819:PsiDirectoryNode" />
-              <item name="sebamaster-movie-frontend-master" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WAE_SS19_App" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WAE_SS19_App" type="462c0819:PsiDirectoryNode" />
-              <item name="sebamaster-movie-frontend-master" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -595,6 +504,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="27" column="22" lean-forward="true" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="726">
+          <caret line="64" column="5" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
         </state>
       </provider>
     </entry>
