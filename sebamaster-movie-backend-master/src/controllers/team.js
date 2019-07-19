@@ -37,12 +37,17 @@ const read   = (req, res) => {
 };
 
 
-//Todo: remove hardcoded search
+//search by team name
 const search   = (req, res) => {
-    TeamModel.find({team_name: "Team Liquid"}).exec()
+    TeamModel.find({team_name: req.params.team_name}).exec()
         .then(team => {
             res.status(200).json(team)
-        });
+            console.log(team);
+        })
+        .catch(error => res.status(500).json({
+                     error: 'Internal Server Error',
+                     message: error.message
+        }));
 };
 
 

@@ -40,7 +40,7 @@ export default class App extends React.Component {
                     }}, path: '/add',},
                 { component: UserLoginView, path: '/login'},
                 { component: UserSignupView, path: '/register'},
-                { component: SearchView, path: '/search'}
+                { component: SearchView, path: '/search/:team_name'}
             ]
         };
     }
