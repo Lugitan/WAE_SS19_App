@@ -4,6 +4,9 @@ import React from 'react';
 import { withRouter } from 'react-router-dom';
 import { Menu, MenuItem, Icon, Input, Button} from 'semantic-ui-react';
 import TeamService from './../services/TeamService';
+import SearchBar from './SearchBar';
+import styles from './../styles/demo.css';
+import words from './words.json';
 
 import KebabMenu from './KebabMenu';
 
@@ -13,19 +16,50 @@ class Header extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            activeItem: 'overwatch'
+            activeItem: 'ow',
+            suggestions: [],
+            sideBar: false
         }
 
         this.handleItemClick = this.handleItemClick.bind(this);
-        this.handleSearch= this.handleSearch.bind(this);
+        this.handleTeamSearch = this.handleTeamSearch.bind(this);
+        this.handleChange = this.handleChange.bind(this);
+        this.handleClear = this.handleClear.bind(this);
+        this.handleSearch = this.handleSearch.bind(this);
+        this.handleSelection = this.handleSelection.bind(this);
+        this.handleSideBar = this.handleSideBar.bind(this);
     }
 
-    handleItemClick() {(e, name) => {
-        this.setState({ activeItem: name })
-        console.log(name)
-    }}
+    handleClear() {
+    this.setState({
+        suggestions: []
+    });
+    }
 
-    handleSearch(e) {
+    handleChange(input) {
+    this.setState({
+        suggestions: words.filter(word => word.startsWith(input))
+    });
+    }
+
+    handleSelection(value) {
+    if (value) {
+        console.info(`Selected "${value}"`);
+    }
+    }
+
+    handleSearch(value) {
+    if (value) {
+        console.info(`Searching "${value}"`);
+    }
+    }
+
+    handleItemClick(e, name) {this.setState(state => ({
+         activeItem: name.name
+        }));
+    }
+
+    handleTeamSearch(e) {
         const searchbar = document.getElementById("searchbar");
         if (searchbar.value !== "") {
             TeamService.getTeams().then((data)=>{
@@ -34,19 +68,50 @@ class Header extends React.Component {
         }
     }
 
+    handleSideBar() {
+        var b = this.state.sideBar;
+        this.setState({
+            sideBar: !b
+        })
+
+        this.props.toggleSideBar(!b)
+    }
+
+    suggestionRenderer(suggestion, searchTerm) {
+        return (
+            <span>
+            <span>{searchTerm}</span>
+            <strong>{suggestion.substr(searchTerm.length)}</strong>
+            </span>
+        );
+    }
+
     render() {
-        const { activeItem }= this.state;
+        const { activeItem } = this.state;
 
         return (
-            <Menu tabular size='huge'>
-                <MenuItem name="" width="150px"> <Icon name='gamepad' /></MenuItem>
-                <Menu.Item name='overwatch' active={activeItem === 'overwatch'} onClick={this.handleItemClick} />
-                <Menu.Item name='csgo' active={activeItem === 'csgo'} onClick={this.handleItemClick} />
-                <Menu.Item name='lol' active={activeItem === 'lol'} onClick={this.handleItemClick} />
+            <Menu borderless size="huge">
+                <MenuItem onClick={this.handleSideBar}> <Icon name='bars' /></MenuItem>
+                <Menu.Item name='ow' className="gameMenuItem" active={activeItem === 'ow'} onClick={this.handleItemClick} />
+                <Menu.Item name='csgo' className="gameMenuItem" active={activeItem === 'csgo'} onClick={this.handleItemClick} />
+                <Menu.Item name='lol' className="gameMenuItem" active={activeItem === 'lol'} onClick={this.handleItemClick} />
                 <Menu.Menu position="right">
-                    <Menu.Item onClick={this.handleSearch}>Search</Menu.Item>
+                    <Menu.Item onClick={this.handleTeamSearch}>Search</Menu.Item>
                     <Menu.Item>
-                        <Input icon='search' placeholder='Search...' id="searchbar"/>
+                        <Input className="icon" icon='search' placeholder='Search Team...' id="searchbar"/>
+                        {/* <SearchBar
+                            autoFocus
+                            renderClearButton
+                            renderSearchButton
+                            placeholder="select a team"
+                            onChange={this.handleChange}
+                            onClear={this.handleClear}
+                            onSelection={this.handleSelection}
+                            onSearch={this.handleSearch}
+                            suggestions={this.state.suggestions}
+                            suggestionRenderer={this.suggestionRenderer}
+                            styles={styles}
+                        /> */}
                     </Menu.Item>
                 </Menu.Menu>
             </Menu>

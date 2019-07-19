@@ -4,7 +4,7 @@ import React from 'react';
 
 import Header from './Header';
 import { Footer } from './Footer';
-import SideBarMenu from './Sidebar';
+import SideBarMenu from './SidebarMenu';
 
 
 export default class Page extends React.Component {
@@ -13,8 +13,11 @@ export default class Page extends React.Component {
         super(props);
 
         this.state = {
-            title: ''
+            title: '',
+            sideBarActive: false
         }
+
+        this.handler = this.handler.bind(this);
     }
 
     componentDidMount(){
@@ -23,11 +26,18 @@ export default class Page extends React.Component {
        });
     }
 
+    handler(bool) {
+
+        this.setState({
+            sideBarActive: bool
+        })
+    }
+
     render() {
         return (
             <section>
-                <Header title={this.state.title} />
-                <SideBarMenu />
+                <Header title={this.state.title} toggleSideBar={this.handler} />
+                <SideBarMenu display={this.state.sideBarActive} icons={this.state.labelStatus} />
                 {this.props.children}
                 <Footer />
             </section>

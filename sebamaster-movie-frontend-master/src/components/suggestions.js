@@ -3,7 +3,7 @@ import React from 'react';
 import autoBind from 'react-autobind';
 import classNames from 'classnames';
 import { isNil } from 'lodash';
-import Suggestion from './suggestion';
+import Suggestion from './Suggestion';
 
 class Suggestions extends React.Component {
   constructor(props) {

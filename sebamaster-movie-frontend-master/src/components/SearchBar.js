@@ -4,8 +4,9 @@ import autoBind from 'react-autobind';
 import classNames from 'classnames';
 import htmlElementAttributes from 'react-html-attributes';
 import { debounce, isNil, pick } from 'lodash';
-import Suggestions from './suggestions';
+import Suggestions from './Suggestions';
 
+// Reference-Link: 
 class SearchBar extends React.Component {
   constructor(props) {
     super(props);
@@ -238,7 +239,7 @@ class SearchBar extends React.Component {
           className={classNames({
             [styles.field]: true,
             [styles.fieldFocused]: state.isFocused,
-            // [styles.hasSuggestions]: props.suggestions.length > 0
+            [styles.hasSuggestions]: props.suggestions.length > 0
           })}
         >
           <input
