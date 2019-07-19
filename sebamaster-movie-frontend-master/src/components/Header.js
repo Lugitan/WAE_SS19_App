@@ -23,7 +23,8 @@ class Header extends React.Component {
     handleItemClick() {(e, name) => {
         this.setState({ activeItem: name })
         console.log(name)
-    }}
+        }
+    }
 
     handleSearch(e) {
         const searchbar = document.getElementById("searchbar");
