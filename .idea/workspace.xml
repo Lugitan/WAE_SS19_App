@@ -2,14 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98b51b08-0f91-452d-962e-2394bf0a5803" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/sebamaster-movie-frontend-master/src/components/Search.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sebamaster-movie-frontend-master/src/views/SearchView.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sebamaster-movie-frontend-master/src/components/SidebarMenu.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sebamaster-movie-backend-master/src/models/team.js" beforeDir="false" afterPath="$PROJECT_DIR$/sebamaster-movie-backend-master/src/models/team.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sebamaster-movie-frontend-master/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/sebamaster-movie-frontend-master/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sebamaster-movie-frontend-master/src/App_.js" beforeDir="false" afterPath="$PROJECT_DIR$/sebamaster-movie-frontend-master/src/SignUp_SignIn.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sebamaster-movie-frontend-master/src/components/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/sebamaster-movie-frontend-master/src/components/Footer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sebamaster-movie-frontend-master/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/sebamaster-movie-frontend-master/src/components/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sebamaster-movie-frontend-master/src/components/MovieDetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/sebamaster-movie-frontend-master/src/components/MovieDetail.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sebamaster-movie-frontend-master/src/services/TeamService.js" beforeDir="false" afterPath="$PROJECT_DIR$/sebamaster-movie-frontend-master/src/services/TeamService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sebamaster-movie-frontend-master/src/components/Page.js" beforeDir="false" afterPath="$PROJECT_DIR$/sebamaster-movie-frontend-master/src/components/Page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sebamaster-movie-frontend-master/src/components/Sidebar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sebamaster-movie-frontend-master/src/components/demo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sebamaster-movie-frontend-master/src/components/search-bar.js" beforeDir="false" afterPath="$PROJECT_DIR$/sebamaster-movie-frontend-master/src/components/SearchBar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sebamaster-movie-frontend-master/src/components/suggestions.js" beforeDir="false" afterPath="$PROJECT_DIR$/sebamaster-movie-frontend-master/src/components/suggestions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sebamaster-movie-frontend-master/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/sebamaster-movie-frontend-master/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sebamaster-movie-frontend-master/src/styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/sebamaster-movie-frontend-master/src/styles/unused.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sebamaster-movie-frontend-master/src/styles/ui-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/sebamaster-movie-frontend-master/src/styles/ui-style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +67,7 @@
         <entry file="file://$PROJECT_DIR$/sebamaster-movie-frontend-master/src/views/MovieDetailView.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="184">
-              <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+              <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -79,8 +84,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sebamaster-movie-frontend-master/src/components/Header.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret line="24" column="25" lean-forward="true" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+            <state relative-caret-position="810">
+              <caret line="54" selection-start-line="54" selection-end-line="54" />
             </state>
           </provider>
         </entry>
@@ -125,13 +130,13 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/sebamaster-movie-backend-master/src/controllers/team.js" />
         <option value="$PROJECT_DIR$/sebamaster-movie-backend-master/src/routes/team.js" />
-        <option value="$PROJECT_DIR$/sebamaster-movie-frontend-master/src/components/Header.js" />
         <option value="$PROJECT_DIR$/sebamaster-movie-frontend-master/src/App.js" />
         <option value="$PROJECT_DIR$/sebamaster-movie-frontend-master/src/views/SearchView.js" />
         <option value="$PROJECT_DIR$/sebamaster-movie-frontend-master/src/components/MovieDetail.js" />
         <option value="$PROJECT_DIR$/sebamaster-movie-frontend-master/src/services/TeamService.js" />
         <option value="$PROJECT_DIR$/sebamaster-movie-frontend-master/src/components/Search.js" />
         <option value="$PROJECT_DIR$/sebamaster-movie-backend-master/src/models/team.js" />
+        <option value="$PROJECT_DIR$/sebamaster-movie-frontend-master/src/components/Header.js" />
       </list>
     </option>
   </component>
@@ -438,7 +443,7 @@
     <entry file="file://$PROJECT_DIR$/sebamaster-movie-frontend-master/src/views/MovieDetailView.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
-          <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -496,8 +501,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sebamaster-movie-frontend-master/src/components/Header.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="24" column="25" lean-forward="true" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+        <state relative-caret-position="810">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
         </state>
       </provider>
     </entry>
