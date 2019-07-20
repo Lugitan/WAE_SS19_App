@@ -8,7 +8,6 @@ import SearchBar from './SearchBar';
 import styles from './../styles/demo.css';
 import words from './words.json';
 
-
 import KebabMenu from './KebabMenu';
 
 class Header extends React.Component {
@@ -20,8 +19,13 @@ class Header extends React.Component {
             activeItem: 'ow',
             suggestions: [],
             sideBar: false,
-            searchUrl: ""
+            url : ''
         }
+
+        //test
+        this.handleUrl = this.handleUrl.bind(this);
+        //this.handleUrl();
+
 
         this.handleItemClick = this.handleItemClick.bind(this);
         this.handleTeamSearch = this.handleTeamSearch.bind(this);
@@ -31,6 +35,12 @@ class Header extends React.Component {
         this.handleSelection = this.handleSelection.bind(this);
         this.handleSideBar = this.handleSideBar.bind(this);
     }
+
+    //test
+    handleUrl(event) {
+        this.setState({url: event.target.value});
+        console.log(this.state.url);
+      }
 
     handleClear() {
     this.setState({
@@ -62,17 +72,22 @@ class Header extends React.Component {
     }
 
     handleTeamSearch(e) {
-        const searchbar = document.getElementById("searchbar");
+        window.location.reload();
 
+        /*const searchbar = document.getElementById("searchbar");
+
+         console.log('test: '+this.state.text);
         if (searchbar.value !== "") {
         console.log(searchbar.value);
             this.setState({searchUrl: searchbar.value}, function () {
                 console.log('test: '+this.state.searchUrl);
             });
-            //console.log(this.state.searchUrl);
+            console.log(this.state.searchUrl);
             //console.log(searchbar.value);
-        }
+        }*/
+
     }
+
 
 
 
@@ -93,6 +108,15 @@ class Header extends React.Component {
             </span>
         );
     }
+
+      _handleKeyDown(e) {
+        if (e.key === 'Enter') {
+          console.log('do validate');
+          window.location.href = "/#/search/" + event.target.value;
+          window.location.reload();
+        }
+
+      }
 
     render() {
         const { activeItem, searchUrl } = this.state;
@@ -115,7 +139,16 @@ class Header extends React.Component {
                         Search
                     </Menu.Item>
                     <Menu.Item>
-                        <Input className="icon" icon='search' placeholder='Search Team...' id="searchbar"/>
+                        <Input
+                            className="icon"
+                            icon='search'
+                            placeholder='Search Team...'
+                            id="searchbar"
+                            type="text"
+                            value={this.state.url}
+                            onChange={this.handleUrl}
+                            onKeyDown={this._handleKeyDown}
+                        />
                         {/* <SearchBar
                             autoFocus
                             renderClearButton
@@ -130,8 +163,11 @@ class Header extends React.Component {
                             styles={styles}
                         /> */}
                     </Menu.Item>
+                    <Menu.Item onClick={this.handleTeamSearch}><Link to={`/search/${this.state.url}`}>Search</Link></Menu.Item>
                 </Menu.Menu>
             </Menu>
+
+
             // <Toolbar
             //     colored
             //     nav={<Button onClick={() => this.props.history.push('/')} icon>menu</Button>}
