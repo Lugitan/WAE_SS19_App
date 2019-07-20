@@ -18,7 +18,6 @@ export default class SidebarMenu extends React.Component {
             <Sidebar
                 as={Menu}
                 animation='overlay'
-                icon=""
                 vertical
                 visible={this.props.display}
                 width='thin'
@@ -40,7 +39,7 @@ export default class SidebarMenu extends React.Component {
                     <Icon name='calendar' />
                     Events
                 </Menu.Item>
-                <Menu.Item>
+                <Menu.Item as='a'>
                     <Icon name='setting' />
                     Settings
                 </Menu.Item>

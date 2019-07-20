@@ -4,6 +4,7 @@
 
 .ui.vertical.menu.custom {
     position: fixed;
+    height: auto !important;
 }
 
 .ui.vertical.menu .item>i.icon {

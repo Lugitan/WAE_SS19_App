@@ -8,7 +8,7 @@ import App from './App';
 // import SearchBar from './components/search-bar';
 // import Demo from './components/demo'
 import WebFontLoader from 'webfontloader';
-import 'react-md/dist/react-md.indigo-pink.min.css'
+import 'react-md/dist/react-md.indigo-pink.min.css';
 
 WebFontLoader.load({
     google: {

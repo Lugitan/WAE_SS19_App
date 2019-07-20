@@ -1,7 +1,7 @@
 "use strict";
 
 import React from 'react';
-import { withRouter } from 'react-router-dom';
+import { withRouter , Link, Redirect} from 'react-router-dom';
 import { Menu, MenuItem, Icon, Input, Button} from 'semantic-ui-react';
 import TeamService from './../services/TeamService';
 import SearchBar from './SearchBar';
@@ -10,7 +10,6 @@ import words from './words.json';
 
 import KebabMenu from './KebabMenu';
 
-
 class Header extends React.Component {
 
     constructor(props) {
@@ -18,7 +17,8 @@ class Header extends React.Component {
         this.state = {
             activeItem: 'ow',
             suggestions: [],
-            sideBar: false
+            sideBar: false,
+            searchUrl: ""
         }
 
         this.handleItemClick = this.handleItemClick.bind(this);
@@ -62,9 +62,16 @@ class Header extends React.Component {
     handleTeamSearch(e) {
         const searchbar = document.getElementById("searchbar");
         if (searchbar.value !== "") {
-            TeamService.getTeams().then((data)=>{
-                console.log(data);
-            });
+            this.setState({
+                searchUrl: searchbar.value
+            })
+            // TeamService.getTeams().then((data)=>{
+            //     console.log(data);
+            // });
+            console.log("Test");
+            // <Redirect push to={`/search/${searchbar.value}`} />
+            // <Link to={`/search/${searchbar.value}`}></Link>
+            
         }
     }
 

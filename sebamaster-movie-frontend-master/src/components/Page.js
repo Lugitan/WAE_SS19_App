@@ -5,7 +5,7 @@ import React from 'react';
 import Header from './Header';
 import { Footer } from './Footer';
 import SideBarMenu from './SidebarMenu';
-
+import Grid from './Grid';
 
 export default class Page extends React.Component {
 
@@ -38,7 +38,8 @@ export default class Page extends React.Component {
             <section>
                 <Header title={this.state.title} toggleSideBar={this.handler} />
                 <SideBarMenu display={this.state.sideBarActive} icons={this.state.labelStatus} />
-                {this.props.children}
+                {/* {this.props.children} */}
+                <Grid />
                 <Footer />
             </section>
         );

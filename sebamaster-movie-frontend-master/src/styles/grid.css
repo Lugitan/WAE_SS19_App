@@ -1,0 +1,10 @@
+.grid-custom {
+    width: 100%;
+}
+
+.react-grid-item {
+    border-style: solid;
+    border-color: lightgray;
+    border-radius: 5px;
+    border-width: 1px;
+}
