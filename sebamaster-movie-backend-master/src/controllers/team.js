@@ -41,6 +41,11 @@ const read   = (req, res) => {
 const search   = (req, res) => {
     TeamModel.find({team_name: req.params.team_name}).exec()
         .then(team => {
+            if (!team.length) return res.status(404).json({
+                error: 'Not Found',
+                message: `Team not found`
+             });
+
             res.status(200).json(team)
             console.log(team);
         })

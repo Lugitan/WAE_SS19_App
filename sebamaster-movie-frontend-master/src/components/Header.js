@@ -7,6 +7,7 @@ import TeamService from './../services/TeamService';
 import SearchBar from './SearchBar';
 import styles from './../styles/demo.css';
 import words from './words.json';
+import {Toolbar} from 'react-md';
 
 import KebabMenu from './KebabMenu';
 
@@ -165,15 +166,16 @@ class Header extends React.Component {
                     </Menu.Item>
                     <Menu.Item onClick={this.handleTeamSearch}><Link to={`/search/${this.state.url}`}>Search</Link></Menu.Item>
                 </Menu.Menu>
+                <Toolbar
+                     colored
+                     nav={<Button onClick={() => this.props.history.push('/')} icon>menu</Button>}
+                    title={this.props.title}
+                    actions={<KebabMenu id="toolbar-colored-kebab-menu" />}>
+                </Toolbar>
             </Menu>
 
 
-            // <Toolbar
-            //     colored
-            //     nav={<Button onClick={() => this.props.history.push('/')} icon>menu</Button>}
-            //     title={this.props.title}
-            //     actions={<KebabMenu id="toolbar-colored-kebab-menu" />}>
-            // </Toolbar>
+
 
         );
     }

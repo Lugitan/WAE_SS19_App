@@ -41,6 +41,7 @@ export default class Grid extends React.Component {
         }
 
         this.handleItemSelect = this.handleItemSelect.bind(this);
+        this.handleChange = this.handleChange.bind(this);
     }
 
     handleItemSelect() {(e, name) => {
@@ -66,11 +67,11 @@ export default class Grid extends React.Component {
     });
     }
 
-    handleChange() {(e) => {
-        e.layouts
+    handleChange(current,   all){
+        console.log(current);
     }
 
-    }
+
 
     render() {
         this.state.layouts = {
