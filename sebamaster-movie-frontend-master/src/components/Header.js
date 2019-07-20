@@ -7,6 +7,8 @@ import TeamService from './../services/TeamService';
 import SearchBar from './SearchBar';
 import styles from './../styles/demo.css';
 import words from './words.json';
+import { Link } from 'react-router-dom';
+
 
 import KebabMenu from './KebabMenu';
 
@@ -15,6 +17,7 @@ class Header extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
+            searchUrl: '',
             activeItem: 'ow',
             suggestions: [],
             sideBar: false,
@@ -61,19 +64,18 @@ class Header extends React.Component {
 
     handleTeamSearch(e) {
         const searchbar = document.getElementById("searchbar");
+
         if (searchbar.value !== "") {
-            this.setState({
-                searchUrl: searchbar.value
-            })
-            // TeamService.getTeams().then((data)=>{
-            //     console.log(data);
-            // });
-            console.log("Test");
-            // <Redirect push to={`/search/${searchbar.value}`} />
-            // <Link to={`/search/${searchbar.value}`}></Link>
-            
+        console.log(searchbar.value);
+            this.setState({searchUrl: searchbar.value}, function () {
+                console.log('test: '+this.state.searchUrl);
+            });
+            //console.log(this.state.searchUrl);
+            //console.log(searchbar.value);
         }
     }
+
+
 
     handleSideBar() {
         var b = this.state.sideBar;
@@ -94,7 +96,7 @@ class Header extends React.Component {
     }
 
     render() {
-        const { activeItem } = this.state;
+        const { activeItem, searchUrl } = this.state;
 
         return (
             <Menu borderless size="huge">
@@ -103,7 +105,6 @@ class Header extends React.Component {
                 <Menu.Item name='csgo' className="gameMenuItem" active={activeItem === 'csgo'} onClick={this.handleItemClick} />
                 <Menu.Item name='lol' className="gameMenuItem" active={activeItem === 'lol'} onClick={this.handleItemClick} />
                 <Menu.Menu position="right">
-                    <Menu.Item onClick={this.handleTeamSearch}>Search</Menu.Item>
                     <Menu.Item>
                         <Input className="icon" icon='search' placeholder='Search Team...' id="searchbar"/>
                         {/* <SearchBar
@@ -120,6 +121,7 @@ class Header extends React.Component {
                             styles={styles}
                         /> */}
                     </Menu.Item>
+                    <Menu.Item onClick={this.handleTeamSearch}><Link to={`/search/${searchUrl}`}>Search</Link></Menu.Item>
                 </Menu.Menu>
             </Menu>
             // <Toolbar

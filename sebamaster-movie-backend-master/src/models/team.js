@@ -11,6 +11,7 @@ const TeamSchema  = new mongoose.Schema({
     team_name: String,
     game: String,
     wins: Number,
+    logo: String,
     losses: Number,
 },
     {collection : 'team'});

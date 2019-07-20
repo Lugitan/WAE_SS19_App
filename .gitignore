@@ -64,3 +64,4 @@ typings/
 mongodb/
 dump/
 .DS_STORE
+.idea/

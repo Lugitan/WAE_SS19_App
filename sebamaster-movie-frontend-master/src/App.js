@@ -8,6 +8,8 @@ import { MovieDetailView }   from './views/MovieDetailView';
 import { MovieFormView }   from './views/MovieFormView';
 import { UserLoginView } from "./views/UserLoginView";
 import { UserSignupView } from "./views/UserSignupView";
+import { SearchView } from "./views/SearchView";
+
 
 import UserService from "./services/UserService";
 
@@ -37,12 +39,13 @@ export default class App extends React.Component {
                         return (<Redirect to={'/login'}/>)
                     }}, path: '/add',},
                 { component: UserLoginView, path: '/login'},
-                { component: UserSignupView, path: '/register'}
+                { component: UserSignupView, path: '/register'},
+                { component: SearchView, path: '/search/:team_name'}
             ]
         };
     }
 
-    componentDidMount(){
+   componentDidMount(){
         document.title = this.state.title;
     }
 

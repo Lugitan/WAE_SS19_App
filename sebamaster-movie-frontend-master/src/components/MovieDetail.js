@@ -17,6 +17,7 @@ export class MovieDetail extends React.Component {
     }
 
     render() {
+    console.log(this.props.movie);
         return (
             <Page>
                 <Card style={style} className="md-block-centered">
