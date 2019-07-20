@@ -8,3 +8,10 @@
     border-radius: 5px;
     border-width: 1px;
 }
+
+.ad {
+    /* background-color: lightcoral; */
+    width: inherit;
+    object-fit: cover;
+    height: inherit;
+}
