@@ -7,8 +7,6 @@ import TeamService from './../services/TeamService';
 import SearchBar from './SearchBar';
 import styles from './../styles/demo.css';
 import words from './words.json';
-import { Link } from 'react-router-dom';
-
 
 import KebabMenu from './KebabMenu';
 
@@ -21,7 +19,8 @@ class Header extends React.Component {
             activeItem: 'ow',
             suggestions: [],
             sideBar: false,
-            searchUrl: ""
+            username :'',
+            text : 'll'
         }
 
         this.handleItemClick = this.handleItemClick.bind(this);
@@ -65,15 +64,18 @@ class Header extends React.Component {
     handleTeamSearch(e) {
         const searchbar = document.getElementById("searchbar");
 
+         console.log('test: '+this.state.text);
         if (searchbar.value !== "") {
         console.log(searchbar.value);
             this.setState({searchUrl: searchbar.value}, function () {
                 console.log('test: '+this.state.searchUrl);
             });
-            //console.log(this.state.searchUrl);
+            console.log(this.state.searchUrl);
             //console.log(searchbar.value);
         }
+
     }
+
 
 
 
@@ -106,7 +108,11 @@ class Header extends React.Component {
                 <Menu.Item name='lol' className="gameMenuItem" active={activeItem === 'lol'} onClick={this.handleItemClick} />
                 <Menu.Menu position="right">
                     <Menu.Item>
-                        <Input className="icon" icon='search' placeholder='Search Team...' id="searchbar"/>
+                        <Input
+                            className="icon" icon='search' placeholder='Search Team...' id="searchbar"
+                            onChangeText={(searchUrl) => this.setState({searchUrl})}
+
+                            />
                         {/* <SearchBar
                             autoFocus
                             renderClearButton
@@ -122,8 +128,18 @@ class Header extends React.Component {
                         /> */}
                     </Menu.Item>
                     <Menu.Item onClick={this.handleTeamSearch}><Link to={`/search/${searchUrl}`}>Search</Link></Menu.Item>
+                    <Menu.Item>
+                      <Input
+                                                  style={{height: 40}}
+                                                  placeholder="Type here to translate!"
+                                                  onChangeText={(text) => this.setState({text})}
+                                                  value={this.state.text}
+                                                />
+                                                </Menu.Item>
                 </Menu.Menu>
             </Menu>
+
+
             // <Toolbar
             //     colored
             //     nav={<Button onClick={() => this.props.history.push('/')} icon>menu</Button>}
