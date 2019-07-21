@@ -3,6 +3,7 @@
 import React from 'react';
 import { Card, Icon } from 'semantic-ui-react';
 
+// TODO Implement PopUp to show component details
 export default class PopUp extends React.Component {
 
     constructor(props) {

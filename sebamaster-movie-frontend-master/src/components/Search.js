@@ -19,12 +19,7 @@ export class Search extends React.Component {
         super(props);
     }
 
-
-
     render() {
-        console.log(this.props.team[0].team_name);
-        console.log(this.props.team);
-
         return (
             <Page>
                 <Card style={style} className="md-block-centered">
@@ -36,14 +31,14 @@ export class Search extends React.Component {
                         </Cell>
                     </Grid>
 
-                    <CardTitle title={this.props.team[0].team_name} subtitle={'test'} />
+                    <CardTitle title={this.props.team[0].team_name} subtitle={'Hier könnte ihr Subtitle stehen'} />
 
                     <CardText>
                         <p>
-                            {'test'}
+                            {'Hier könnte ihre Beschreibung stehen.'}
                         </p>
                         <p>
-                            {'test'}
+                            {'Hier könnte eine erweiterte Beschreibung stehen.'}
                         </p>
                     </CardText>
                 </Card>

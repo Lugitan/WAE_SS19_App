@@ -23,6 +23,7 @@ export default class SidebarMenu extends React.Component {
                 width='thin'
                 className="ui sidebar custom"
             >
+                // TODO Insert page reference links to the Lists of Tournaments, Teams, etc.
                 <Menu.Item as='a' onClick={this.handleTournaments}>
                     <Icon name='trophy' />
                     Tournaments

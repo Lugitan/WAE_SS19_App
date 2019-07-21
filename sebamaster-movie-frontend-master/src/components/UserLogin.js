@@ -74,7 +74,9 @@ class UserLogin extends React.Component {
                                 disabled={this.state.username == undefined || this.state.username == '' || this.state.password == undefined || this.state.password == '' ? true : false}
                                 raised primary className="md-cell md-cell--2">Login</Button>
                         <Button id="reset" type="reset" raised secondary className="md-cell md-cell--2">Dismiss</Button>
-                        <Link to={'/register'} className="md-cell">Not registered yet?</Link>
+
+                        //TODO To add more users, errorhandling with the customized homepage needs to be implemented
+                        {/* <Link to={'/register'} className="md-cell">Not registered yet?</Link> */}
                         <AlertMessage className="md-row md-full-width" >{this.props.error ? `${this.props.error}` : ''}</AlertMessage>
                     </form>
                 </Card>

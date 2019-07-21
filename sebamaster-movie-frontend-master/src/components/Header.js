@@ -3,11 +3,8 @@
 import React from 'react';
 import { withRouter , Link, Redirect} from 'react-router-dom';
 import { Menu, MenuItem, Icon, Input, Button} from 'semantic-ui-react';
-import TeamService from './../services/TeamService';
 import SearchBar from './SearchBar';
 import styles from './../styles/demo.css';
-import { Toolbar } from 'react-md';
-import words from './words.json';
 
 import KebabMenu from './KebabMenu';
 
@@ -24,14 +21,9 @@ class Header extends React.Component {
             history
         }
 
-        //test
         this.handleUrl = this.handleUrl.bind(this);
-        //this.handleUrl();
-
-
         this.handleItemClick = this.handleItemClick.bind(this);
         this.handleTeamSearch = this.handleTeamSearch.bind(this);
-        this.handleChange = this.handleChange.bind(this);
         this.handleClear = this.handleClear.bind(this);
         this.handleSearch = this.handleSearch.bind(this);
         this.handleSelection = this.handleSelection.bind(this);
@@ -42,17 +34,11 @@ class Header extends React.Component {
     handleUrl(event) {
         this.setState({url: event.target.value});
         console.log(this.state.url);
-      }
+    }
 
     handleClear() {
     this.setState({
         suggestions: []
-    });
-    }
-
-    handleChange(input) {
-    this.setState({
-        suggestions: words.filter(word => word.startsWith(input))
     });
     }
 
@@ -71,24 +57,11 @@ class Header extends React.Component {
     handleItemClick(e, name) {this.setState(state => ({
          activeItem: name.name
         }));
-        // this.props.history.push('/')
+        this.props.history.push('/')
     }
 
     handleTeamSearch(e) {
         window.location.reload();
-
-        /*const searchbar = document.getElementById("searchbar");
-
-         console.log('test: '+this.state.text);
-        if (searchbar.value !== "") {
-        console.log(searchbar.value);
-            this.setState({searchUrl: searchbar.value}, function () {
-                console.log('test: '+this.state.searchUrl);
-            });
-            console.log(this.state.searchUrl);
-            //console.log(searchbar.value);
-        }*/
-
     }
 
     handleSideBar() {
@@ -110,13 +83,15 @@ class Header extends React.Component {
     }
 
       _handleKeyDown(e) {
-        if (e.key === 'Enter') {
-          console.log('do validate');
+        if (e.key === 'Enter' && event.target.value === "Team Liquid") {
           window.location.href = "/#/search/" + event.target.value;
           window.location.reload();
+        } 
+        // TODO This should be changed to a context error message for more teams
+        else if(e.key === 'Enter' && event.target.value !== "Team Liquid") {
+            alert("No Team could be found!");
         }
-
-      }
+    }
 
     render() {
         const { activeItem, searchUrl } = this.state;
@@ -152,14 +127,6 @@ class Header extends React.Component {
                     <KebabMenu id="toolbar-colored-kebab-menu" />
                 </MenuItem>
             </Menu>
-
-            // <Toolbar
-            //     colored
-            //     nav={<Button onClick={() => this.props.history.push('/')} icon>menu</Button>}
-            //     title={this.props.title}
-            //     actions={<KebabMenu id="toolbar-colored-kebab-menu" />}>
-            // </Toolbar>
-
         );
     }
 };

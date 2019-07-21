@@ -6,7 +6,6 @@ import htmlElementAttributes from 'react-html-attributes';
 import { debounce, isNil, pick } from 'lodash';
 import Suggestions from './Suggestions';
 
-// Reference-Link: 
 class SearchBar extends React.Component {
   constructor(props) {
     super(props);
