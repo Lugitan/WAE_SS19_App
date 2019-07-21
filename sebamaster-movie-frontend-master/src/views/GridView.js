@@ -59,16 +59,14 @@ export class GridView extends React.Component {
                     })
                 }
             })
-        } else {
-            console.log(UserService.getCurrentUser().lg);
-            layouts.forEach(el => {
-                if(true) {
-                    this.setState({
-                        activeLayout: UserService.getCurrentUser().lg
-                        })
-                }
+        } 
+        else {
+            console.log(UserService.getCurrentUser());
+            this.setState({
+                activeLayout: UserService.getCurrentUser()
             })
         }
+    }
 
         // console.log("default grid found");
         // GridItemsService.getDefaultGrid().then((data) => {
@@ -82,7 +80,6 @@ export class GridView extends React.Component {
         // }).catch((e) => {
         //     console.error(e);
         // });
-    }
 
     selectLayout(id) {
         this.state.data.forEach(el => {

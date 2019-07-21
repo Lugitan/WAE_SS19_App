@@ -55,7 +55,7 @@ class Grid extends React.Component {
 
     generateDOM() {
         var img = "";
-        console.log(this.state.layout.lg);
+        console.log(this.state.layout);
         return _.map(this.state.layout.lg, function(l, i) {
             var rand = Math.random();
             if(rand < 0.3) {

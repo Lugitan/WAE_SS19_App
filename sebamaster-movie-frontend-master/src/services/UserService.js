@@ -51,7 +51,6 @@ export default class UserService {
             username: JSON.parse(window.atob(base64)).username,
             lg: JSON.parse(window.atob(base64)).lg
         };
-
     }
 
     static isAuthenticated() {
