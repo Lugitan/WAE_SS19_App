@@ -118,7 +118,8 @@ const updateLayout = (req, res) => {
         });
     }
 
-    console.log("id: " + req.params.id);
+    console.log(req.body);
+    console.log(req.params.id);
 
     UserModel.findByIdAndUpdate(req.params.id,req.body,{
         new: true,
