@@ -71,7 +71,7 @@ class Header extends React.Component {
     handleItemClick(e, name) {this.setState(state => ({
          activeItem: name.name
         }));
-        this.props.history.push('/')
+        // this.props.history.push('/')
     }
 
     handleTeamSearch(e) {
