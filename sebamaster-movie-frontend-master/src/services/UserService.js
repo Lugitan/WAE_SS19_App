@@ -57,4 +57,14 @@ export default class UserService {
     static isAuthenticated() {
         return !!window.localStorage['jwtToken'];
     }
+
+    static updateLayout(layout) {
+        return new Promise((resolve, reject) => {
+            HttpService.put(`${this.baseURL()}/${layout.grid.lg}`, movie, function(data) {
+                resolve(data);
+            }, function(textStatus) {
+               reject(textStatus);
+            });
+        });
+    }
 }

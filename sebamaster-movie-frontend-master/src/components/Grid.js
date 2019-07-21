@@ -89,6 +89,7 @@ class Grid extends React.Component {
         //console.log(UserService.getCurrentUser().lg[0].y);
 
         //console.log(current);
+        UserService.updateLayout(current);
     }
 
     render() {
