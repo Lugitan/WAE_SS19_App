@@ -32,13 +32,12 @@ export class GridView extends React.Component {
                 lg: [
                     { i: 'ad1', x: 0, y: 0, w: 1, h: 2 , static: true},
                     { i: 'ad2', x: 12, y: 0, w: 1, h: 3 , static: true},
-                    { i: 'e', x: 1,y: 10, w: 3, h: 1 , static: false},
-                    { i: 'f', x: 4, y: 0, w: 5, h: 2 , static: false},
+                    { i: 'e', x: 1,y: 10, w: 3, h: 1 , static: false , type: "match"},
+                    { i: 'f', x: 4, y: 0, w: 5, h: 2 , static: false, type: "table"},
                 ]
             }},
-
             {
-            grid:{
+            grid: {
                 id:"omegatest",
                 default: false,
                 lg: [
