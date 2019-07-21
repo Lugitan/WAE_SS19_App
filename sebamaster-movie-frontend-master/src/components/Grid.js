@@ -84,13 +84,17 @@ class Grid extends React.Component {
     }
 
     handleChange(current,   all){
-        //console.log(current);
-        //UserService.login(UserService.getCurrentUser().username, UserService.getCurrentUser().pass);
-        //console.log(UserService.getCurrentUser().pass);
-        //console.log(UserService.getCurrentUser().lg[0].y);
+        if(UserService.isAuthenticated()){
+            var saved = {
+                grid:
+                {
+                    lg: current
 
-        //console.log(current);
-        UserService.updateLayout(current);
+                }}
+
+            UserService.updateLayout(saved, UserService.getCurrentUser().id);
+            console.log("auth");
+        }
     }
 
     render() {

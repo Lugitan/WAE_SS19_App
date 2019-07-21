@@ -58,9 +58,9 @@ export default class UserService {
         return !!window.localStorage['jwtToken'];
     }
 
-    static updateLayout(layout) {
+    static updateLayout(layout, id) {
         return new Promise((resolve, reject) => {
-            HttpService.put(`${this.baseURL()}/${layout.grid.lg}`, movie, function(data) {
+            HttpService.put(`${this.baseURL()}/${id}`, layout, function(data) {
                 resolve(data);
             }, function(textStatus) {
                reject(textStatus);
