@@ -5,7 +5,7 @@ import {Responsive, WidthProvider, GridLayout} from 'react-grid-layout'; // Sour
 import { Card, Icon } from 'semantic-ui-react';
 import { withRouter } from 'react-router-dom'
 import Page from './Page';
-import MatchElement from './GridElements/Match';
+import Match from './GridElements/Match';
 
 import './../styles/grid.css';
 import './../../node_modules/react-grid-layout/css/styles.css';
@@ -56,7 +56,7 @@ class Grid extends React.Component {
     generateDOM() {
         var img = "";
         console.log(this.state.layout);
-        return _.map(this.state.layout.lg, function(l, i) {
+        return _.map(this.state.layout.grid, function(l, i) {
             var rand = Math.random();
             if(rand < 0.3) {
                 img = "https://cdn.dribbble.com/users/227808/screenshots/1442473/swim-ad.gif"
@@ -66,14 +66,15 @@ class Grid extends React.Component {
                 img = "https://techcrunch.com/wp-content/uploads/2015/08/safe_image.gif"
             }
             return (
-                <div key={l.i} className={l.static ? "static" : ""}>
-                {l.static ? (
+                <div key={l.lg.i} className={l.lg.static ? "static" : ""}>
+                {l.lg.static ? (
                     <img src={img} alt="ad" className="ad" />
-                ) : (
-                <div>
-                    <MatchElement></MatchElement>
-                </div>
-                )}
+                ) (l.type == "match" ? (
+                    <Match></Match>
+                ) (l.type == "table" ? (
+                    <p></p>
+                ): "") : "") : ""
+            }
             </div>
             );
         });
@@ -88,20 +89,7 @@ class Grid extends React.Component {
         //console.log(current);
     }
 
-
-
     render() {
-        var layouts = {
-            id:"test",
-            default: true,
-            lg: [
-                { i: 'ad1', x: 0, y: 0, w: 1, h: 2 , static: true},
-                { i: 'ad2', x: 12, y: 0, w: 1, h: 3 , static: true},
-                { i: 'e', x: 1,y: 0, w: 3, h: 1 , static: false},
-                { i: 'f', x: 4, y: 0, w: 5, h: 2 , static: false},
-            ]
-        }
-        
         return (
             <Page>
                 <ResponsiveGridLayout className="layout" layouts={this.state.layout}
@@ -113,7 +101,7 @@ class Grid extends React.Component {
                     useCSSTransforms={true} 
                     verticallyCompact={true}
                     preventCollision={false}
-                    rowHeight={100}
+                    rowHeight={70}
                     onLayoutChange={this.handleChange}
                 >
                     {/* <div key="ad1" name="ad1">

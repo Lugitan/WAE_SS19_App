@@ -1,0 +1,39 @@
+.match {
+    display: flex;
+    justify-content: space-around;
+    vertical-align: middle;
+    height: 100%;
+    padding: 1em;
+}
+
+.match_logo_left {
+    margin-right: 1em;
+}
+
+.match_logo_right {
+    margin-left: 1em;
+}
+
+.match_logo {
+    width: 40px;
+    height: 40px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.match_score {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+/* .match_teamName {
+    margin-top: auto;
+    margin-bottom: auto;
+} */
+
+.match_font {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: auto;
+    margin-bottom: auto;
+}
