@@ -6,6 +6,7 @@ import { Menu, MenuItem, Icon, Input, Button} from 'semantic-ui-react';
 import TeamService from './../services/TeamService';
 import SearchBar from './SearchBar';
 import styles from './../styles/demo.css';
+import { Toolbar } from 'react-md';
 import words from './words.json';
 
 import KebabMenu from './KebabMenu';
@@ -88,9 +89,6 @@ class Header extends React.Component {
 
     }
 
-
-
-
     handleSideBar() {
         var b = this.state.sideBar;
         this.setState({
@@ -134,10 +132,7 @@ class Header extends React.Component {
                     <img src="https://www.macupdate.com/images/icons256/47210.png" alt="League of Legends" className="gameLogo"/>
                 </Menu.Item>
                 <Menu.Menu position="right">
-                    <Menu.Item onClick={this.handleTeamSearch}>
-                        {/* <Link to={`/search/${searchUrl}`}>Search</Link> */}
-                        Search
-                    </Menu.Item>
+                    <Menu.Item onClick={this.handleTeamSearch}><Link to={`/search/${this.state.url}`}>Search</Link></Menu.Item>
                     <Menu.Item>
                         <Input
                             className="icon"
@@ -149,24 +144,12 @@ class Header extends React.Component {
                             onChange={this.handleUrl}
                             onKeyDown={this._handleKeyDown}
                         />
-                        {/* <SearchBar
-                            autoFocus
-                            renderClearButton
-                            renderSearchButton
-                            placeholder="select a team"
-                            onChange={this.handleChange}
-                            onClear={this.handleClear}
-                            onSelection={this.handleSelection}
-                            onSearch={this.handleSearch}
-                            suggestions={this.state.suggestions}
-                            suggestionRenderer={this.suggestionRenderer}
-                            styles={styles}
-                        /> */}
                     </Menu.Item>
-                    <Menu.Item onClick={this.handleTeamSearch}><Link to={`/search/${this.state.url}`}>Search</Link></Menu.Item>
                 </Menu.Menu>
+                <MenuItem>
+                    <KebabMenu id="toolbar-colored-kebab-menu" />
+                </MenuItem>
             </Menu>
-
 
             // <Toolbar
             //     colored
@@ -174,6 +157,7 @@ class Header extends React.Component {
             //     title={this.props.title}
             //     actions={<KebabMenu id="toolbar-colored-kebab-menu" />}>
             // </Toolbar>
+
 
         );
     }

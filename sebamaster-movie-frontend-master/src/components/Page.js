@@ -27,7 +27,6 @@ export default class Page extends React.Component {
     }
 
     handler(bool) {
-
         this.setState({
             sideBarActive: bool
         })
@@ -39,7 +38,6 @@ export default class Page extends React.Component {
                 <Header title={this.state.title} toggleSideBar={this.handler} />
                 <SideBarMenu display={this.state.sideBarActive} icons={this.state.labelStatus} />
                 {this.props.children}
-                <Grid />
                 <Footer />
             </section>
         );

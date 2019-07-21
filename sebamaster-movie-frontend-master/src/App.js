@@ -9,7 +9,7 @@ import { MovieFormView }   from './views/MovieFormView';
 import { UserLoginView } from "./views/UserLoginView";
 import { UserSignupView } from "./views/UserSignupView";
 import { SearchView } from "./views/SearchView";
-
+import { GridView } from "./views/GridView"
 
 import UserService from "./services/UserService";
 
@@ -22,7 +22,7 @@ export default class App extends React.Component {
         this.state = {
             title: 'UNODIS',
             routes: [
-                { component: MovieListView , path: '/', exact: true},
+                { component: GridView , path: '/', exact: true},
                 { component: MovieDetailView , path: '/show/:id'},
                 { render: (props) => {
                         if(UserService.isAuthenticated()) {

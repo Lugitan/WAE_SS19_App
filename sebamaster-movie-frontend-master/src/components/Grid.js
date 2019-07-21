@@ -36,8 +36,8 @@ export default class Grid extends React.Component {
             currentBreakpoint: "lg",
             compactType: "vertical",
             mounted: false,
-            layouts: [],
-            userLoggedIn: false
+            layout: this.props.layout,
+            userLoggedIn: false,
         }
 
         this.handleItemSelect = this.handleItemSelect.bind(this);
@@ -48,32 +48,36 @@ export default class Grid extends React.Component {
     }}
 
     generateDOM() {
-    return _.map(this.state.layouts.lg, function(l, i) {
-        return (
-        <div key={i} className={l.static ? "static" : ""}>
-            {l.static ? (
-            <span
-                className="text"
-                title="This item is static and cannot be removed or resized."
-            >
-                Static - {i}
-            </span>
-            ) : (
-            <span className="text">{i}</span>
-            )}
-        </div>
-        );
-    });
+        var img = "";
+        return _.map(this.state.layout.lg, function(l, i) {
+            var rand = Math.random();
+            if(rand < 0.3) {
+                img = "https://cdn.dribbble.com/users/227808/screenshots/1442473/swim-ad.gif"
+            } else if(rand < 0.6) {
+                img = "https://media.giphy.com/media/QRlvT2tKQcwtq/giphy.gif"
+            } else {
+                img = "https://techcrunch.com/wp-content/uploads/2015/08/safe_image.gif"
+            }
+            return (
+                <div key={l.i} className={l.static ? "static" : ""}>
+                {l.static ? (
+                    <img src={img} alt="ad" className="ad" />
+                ) : (
+                <span className="text">{i}</span>
+                )}
+            </div>
+            );
+        });
     }
 
-    handleChange() {(e) => {
-        e.layouts
-    }
-
+    handleChange(current, all) {
+        console.log(current);
     }
 
     render() {
-        this.state.layouts = {
+        var layouts = {
+            id:"test",
+            default: true,
             lg: [
                 { i: 'ad1', x: 0, y: 0, w: 1, h: 2 , static: true},
                 { i: 'ad2', x: 12, y: 0, w: 1, h: 3 , static: true},
@@ -81,9 +85,10 @@ export default class Grid extends React.Component {
                 { i: 'f', x: 4, y: 0, w: 5, h: 2 , static: false},
             ]
         }
+        
         return (
             <div>
-                <ResponsiveGridLayout className="layout" layouts={this.state.layouts}
+                <ResponsiveGridLayout className="layout" layouts={this.state.layout}
                     breakpoints={{lg: 1600, md: 996, sm: 768, xs: 480, xxs: 0}}
                     cols={{lg: 12, md: 10, sm: 6, xs: 4, xxs: 2}}
                     isDraggable={true} 
@@ -93,19 +98,19 @@ export default class Grid extends React.Component {
                     verticallyCompact={true}
                     preventCollision={false}
                     rowHeight={100}
-                    onLayoutChange={this.handleChange}
+                    // onLayoutChange={this.handleChange}
                 >
-                    <div key="ad1" name="ad1">
+                    {/* <div key="ad1" name="ad1">
                         <img src="https://cdn.dribbble.com/users/227808/screenshots/1442473/swim-ad.gif" alt="ad" className="ad" /> 
                     </div>
                     <div key="ad2" name="ad2">
                         <img src="https://media.giphy.com/media/QRlvT2tKQcwtq/giphy.gif" alt="ad" className="ad" /> 
                     </div>
                     <div key="e" name="table">2</div>
-                    <div key="f" name="article">3</div>
-                    {/* {this.generateDOM()} */}
+                    <div key="f" name="article">3</div> */}
+                    {this.generateDOM()}
                 </ResponsiveGridLayout>
-            </div>
+            </div> 
         )
     }
 }
