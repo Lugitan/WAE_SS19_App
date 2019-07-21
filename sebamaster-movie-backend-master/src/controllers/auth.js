@@ -28,7 +28,7 @@ const login = (req,res) => {
             // if user is found and password is valid
             // create a token
             console.log(user);
-            const token = jwt.sign({ id: user._id, username: user.username, lg: user.lg }, config.JwtSecret, {
+            const token = jwt.sign({ id: user._id, username: user.username, grid: user.grid }, config.JwtSecret, {
                 expiresIn: 86400 // expires in 24 hours
             });
 
@@ -109,10 +109,32 @@ const logout = (req, res) => {
     res.status(200).send({ token: null });
 };
 
+const updateLayout = (req, res) => {
+    if (Object.keys(req.body).length === 0)
+    {
+        return res.status(400).json({
+            error: 'Bad Request',
+            message: 'The request body is empty'
+        });
+    }
+
+    console.log("id: " + req.params.id);
+
+    UserModel.findByIdAndUpdate(req.params.id,req.body,{
+        new: true,
+        runValidators: true}).exec()
+        .then(user => res.status(200).json(user))
+        .catch(error => res.status(500).json({
+            error: 'Internal server error',
+            message: error.message
+        }));
+};
+
 
 module.exports = {
     login,
     register,
     logout,
-    me
+    me,
+    updateLayout
 };

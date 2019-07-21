@@ -22,7 +22,7 @@ export default class App extends React.Component {
         this.state = {
             title: 'UNODIS',
             routes: [
-                { component: GridView, path: '/', exact: true},
+                { component: GridView, path: '/', exact: true}, //gridview, movielistview
                 { component: MovieDetailView , path: '/show/:id'},
                 { render: (props) => {
                         if(UserService.isAuthenticated()) {

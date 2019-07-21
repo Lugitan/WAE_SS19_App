@@ -24,6 +24,7 @@ export default class UserService {
 
     static login(user, pass) {
         return new Promise((resolve, reject) => {
+            console.log("UserService.baseURL()");
             HttpService.post(`${UserService.baseURL()}/login`, {
                 username: user,
                 password: pass
@@ -49,7 +50,7 @@ export default class UserService {
         return {
             id : JSON.parse(window.atob(base64)).id,
             username: JSON.parse(window.atob(base64)).username,
-            lg: JSON.parse(window.atob(base64)).lg
+            grid: JSON.parse(window.atob(base64)).grid
         };
     }
 

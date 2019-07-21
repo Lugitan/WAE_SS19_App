@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98b51b08-0f91-452d-962e-2394bf0a5803" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sebamaster-movie-backend-master/src/controllers/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/sebamaster-movie-backend-master/src/controllers/auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sebamaster-movie-backend-master/src/controllers/movie.js" beforeDir="false" afterPath="$PROJECT_DIR$/sebamaster-movie-backend-master/src/controllers/movie.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sebamaster-movie-backend-master/src/models/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/sebamaster-movie-backend-master/src/models/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sebamaster-movie-backend-master/src/routes/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/sebamaster-movie-backend-master/src/routes/auth.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sebamaster-movie-frontend-master/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/sebamaster-movie-frontend-master/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sebamaster-movie-frontend-master/src/components/Grid.js" beforeDir="false" afterPath="$PROJECT_DIR$/sebamaster-movie-frontend-master/src/components/Grid.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sebamaster-movie-frontend-master/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/sebamaster-movie-frontend-master/src/components/Header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sebamaster-movie-frontend-master/src/services/UserService.js" beforeDir="false" afterPath="$PROJECT_DIR$/sebamaster-movie-frontend-master/src/services/UserService.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sebamaster-movie-frontend-master/src/views/GridView.js" beforeDir="false" afterPath="$PROJECT_DIR$/sebamaster-movie-frontend-master/src/views/GridView.js" afterDir="false" />
     </list>
@@ -20,46 +24,24 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sebamaster-movie-backend-master/src/controllers/auth.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sebamaster-movie-frontend-master/src/services/UserService.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="26" column="49" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sebamaster-movie-frontend-master/src/components/Grid.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="56" column="40" selection-start-line="56" selection-start-column="40" selection-end-line="56" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sebamaster-movie-frontend-master/src/App.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="24" column="61" selection-start-line="24" selection-start-column="61" selection-end-line="24" selection-end-column="61" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sebamaster-movie-backend-master/src/models/user.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sebamaster-movie-backend-master/src/controllers/auth.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sebamaster-movie-frontend-master/src/components/Header.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="134" column="68" selection-start-line="134" selection-start-column="64" selection-end-line="134" selection-end-column="68" />
+            <state relative-caret-position="290">
+              <caret line="59" column="47" selection-start-line="59" selection-start-column="47" selection-end-line="59" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -67,39 +49,57 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sebamaster-movie-frontend-master/src/views/GridView.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="66" column="69" lean-forward="true" selection-start-line="66" selection-start-column="38" selection-end-line="66" selection-end-column="69" />
+            <state relative-caret-position="325">
+              <caret line="40" column="18" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sebamaster-movie-frontend-master/src/components/PopUp.js">
+        <entry file="file://$PROJECT_DIR$/sebamaster-movie-frontend-master/src/App.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="103">
+              <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sebamaster-movie-backend-master/src/routes/auth.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="79" selection-start-line="13" selection-start-column="79" selection-end-line="13" selection-end-column="79" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sebamaster-movie-backend-master/src/middlewares.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-189" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sebamaster-movie-frontend-master/src/pages/SignInForm.js">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sebamaster-movie-frontend-master/src/components/Page.js">
+        <entry file="file://$PROJECT_DIR$/sebamaster-movie-backend-master/src/routes/team.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="40" column="16" lean-forward="true" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
+            <state relative-caret-position="195">
+              <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-end-line="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sebamaster-movie-frontend-master/src/services/UserService.js">
+        <entry file="file://$PROJECT_DIR$/sebamaster-movie-backend-master/src/controllers/team.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
-              <caret line="56" column="26" selection-start-line="56" selection-start-column="11" selection-end-line="56" selection-end-column="26" />
+            <state relative-caret-position="168">
+              <caret line="41" column="29" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="29" />
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sebamaster-movie-frontend-master/package-lock.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-129276" />
           </provider>
         </entry>
       </file>
@@ -113,9 +113,10 @@
       <find>value</find>
       <find>test</find>
       <find>reload</find>
-      <find>id</find>
       <find>token</find>
+      <find>id</find>
       <find>username</find>
+      <find>team_name</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -130,13 +131,15 @@
         <option value="$PROJECT_DIR$/sebamaster-movie-backend-master/src/models/team.js" />
         <option value="$PROJECT_DIR$/sebamaster-movie-frontend-master/src/views/SearchView.js" />
         <option value="$PROJECT_DIR$/sebamaster-movie-frontend-master/src/services/TeamService.js" />
-        <option value="$PROJECT_DIR$/sebamaster-movie-backend-master/src/routes/team.js" />
         <option value="$PROJECT_DIR$/sebamaster-movie-frontend-master/src/components/Page.js" />
+        <option value="$PROJECT_DIR$/sebamaster-movie-frontend-master/src/components/Header.js" />
+        <option value="$PROJECT_DIR$/sebamaster-movie-backend-master/src/controllers/movie.js" />
+        <option value="$PROJECT_DIR$/sebamaster-movie-backend-master/src/routes/team.js" />
         <option value="$PROJECT_DIR$/sebamaster-movie-backend-master/src/controllers/team.js" />
         <option value="$PROJECT_DIR$/sebamaster-movie-backend-master/src/models/user.js" />
-        <option value="$PROJECT_DIR$/sebamaster-movie-backend-master/src/controllers/auth.js" />
-        <option value="$PROJECT_DIR$/sebamaster-movie-frontend-master/src/components/Header.js" />
         <option value="$PROJECT_DIR$/sebamaster-movie-frontend-master/src/App.js" />
+        <option value="$PROJECT_DIR$/sebamaster-movie-backend-master/src/controllers/auth.js" />
+        <option value="$PROJECT_DIR$/sebamaster-movie-backend-master/src/routes/auth.js" />
         <option value="$PROJECT_DIR$/sebamaster-movie-frontend-master/src/services/UserService.js" />
         <option value="$PROJECT_DIR$/sebamaster-movie-frontend-master/src/components/Grid.js" />
         <option value="$PROJECT_DIR$/sebamaster-movie-frontend-master/src/views/GridView.js" />
@@ -317,21 +320,11 @@
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.js" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sebamaster-movie-frontend-master/src/views/MovieListView.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-294" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sebamaster-movie-frontend-master/src/components/MovieList.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="34" lean-forward="true" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sebamaster-movie-frontend-master/src/pages/SignInForm.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-154" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sebamaster-movie-frontend-master/src/pages/SignUpForm.js">
@@ -345,9 +338,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sebamaster-movie-frontend-master/src/App_.js" />
-    <entry file="file://$PROJECT_DIR$/sebamaster-movie-frontend-master/src/services/ArticleService.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/sebamaster-movie-frontend-master/src/services/ArticleService.js" />
     <entry file="file://$PROJECT_DIR$/sebamaster-movie-frontend-master/src/components/search-bar.js" />
     <entry file="file://$PROJECT_DIR$/sebamaster-movie-frontend-master/src/components/SimpleLink.js">
       <provider selected="true" editor-type-id="text-editor" />
@@ -394,9 +385,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sebamaster-movie-backend-master/src/routes/movie.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/sebamaster-movie-frontend-master/src/views/SearchView.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="307">
@@ -421,11 +409,7 @@
         <state relative-caret-position="-833" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sebamaster-movie-frontend-master/src/components/Header.js.orig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-870" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/sebamaster-movie-frontend-master/src/components/Header.js.orig" />
     <entry file="file://$PROJECT_DIR$/sebamaster-movie-frontend-master/src/components/SearchBar.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2168" />
@@ -474,25 +458,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sebamaster-movie-backend-master/src/api.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-104" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sebamaster-movie-backend-master/src/routes/team.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sebamaster-movie-backend-master/src/controllers/team.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-488">
-          <caret line="43" column="28" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sebamaster-movie-frontend-master/src/services/TeamService.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="52">
@@ -500,41 +465,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sebamaster-movie-backend-master/src/routes/auth.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sebamaster-movie-backend-master/src/models/movie.js">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sebamaster-movie-backend-master/src/controllers/movie.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="30" column="10" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sebamaster-movie-frontend-master/src/services/MovieService.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="98">
           <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sebamaster-movie-backend-master/src/models/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sebamaster-movie-backend-master/src/controllers/auth.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -549,42 +486,100 @@
     <entry file="file://$PROJECT_DIR$/sebamaster-movie-frontend-master/src/components/Page.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="397">
-          <caret line="40" column="16" lean-forward="true" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
+          <caret line="40" column="16" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sebamaster-movie-frontend-master/src/components/Header.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="134" column="68" selection-start-line="134" selection-start-column="64" selection-end-line="134" selection-end-column="68" />
+        <state relative-caret-position="333">
+          <caret line="136" column="68" selection-start-line="136" selection-start-column="68" selection-end-line="136" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sebamaster-movie-backend-master/src/routes/movie.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="16" selection-start-line="12" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sebamaster-movie-backend-master/src/controllers/movie.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="49" column="23" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sebamaster-movie-backend-master/src/models/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sebamaster-movie-backend-master/src/api.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-113" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sebamaster-movie-backend-master/src/controllers/team.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="41" column="29" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sebamaster-movie-backend-master/src/routes/team.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sebamaster-movie-backend-master/src/controllers/auth.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sebamaster-movie-backend-master/src/routes/auth.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="79" selection-start-line="13" selection-start-column="79" selection-end-line="13" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sebamaster-movie-backend-master/src/middlewares.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-189" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sebamaster-movie-frontend-master/src/pages/SignInForm.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sebamaster-movie-frontend-master/src/services/UserService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="49" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sebamaster-movie-frontend-master/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="24" column="61" selection-start-line="24" selection-start-column="61" selection-end-line="24" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sebamaster-movie-frontend-master/src/services/UserService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="56" column="26" selection-start-line="56" selection-start-column="11" selection-end-line="56" selection-end-column="26" />
+        <state relative-caret-position="103">
+          <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sebamaster-movie-frontend-master/src/components/Grid.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="56" column="40" selection-start-line="56" selection-start-column="40" selection-end-line="56" selection-end-column="40" />
+        <state relative-caret-position="290">
+          <caret line="59" column="47" selection-start-line="59" selection-start-column="47" selection-end-line="59" selection-end-column="47" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sebamaster-movie-frontend-master/src/views/GridView.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="66" column="69" lean-forward="true" selection-start-line="66" selection-start-column="38" selection-end-line="66" selection-end-column="69" />
+        <state relative-caret-position="325">
+          <caret line="40" column="18" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
         </state>
       </provider>
     </entry>

@@ -23,6 +23,9 @@ export class GridView extends React.Component {
         //console.log(UserService.getCurrentUser().lg[0].y);
 
         var layouts = [
+
+            {
+            grid:
             {
                 id:"test",
                 default: true,
@@ -32,8 +35,10 @@ export class GridView extends React.Component {
                     { i: 'e', x: 1,y: 10, w: 3, h: 1 , static: false},
                     { i: 'f', x: 4, y: 0, w: 5, h: 2 , static: false},
                 ]
-            },
+            }},
+
             {
+            grid:{
                 id:"omegatest",
                 default: false,
                 lg: [
@@ -42,7 +47,7 @@ export class GridView extends React.Component {
                     { i: 'e', x: 4,y: 0, w: 3, h: 1 , static: false},
                     { i: 'f', x: 7, y: 0, w: 5, h: 2 , static: false},
                 ]
-            },
+            }},
 
         ]
 
@@ -53,7 +58,8 @@ export class GridView extends React.Component {
 
         if(!UserService.isAuthenticated()) {
             layouts.forEach(el => {
-                if(el.default) {
+                console.log(el);
+                if(el.grid.default) {
                     this.setState({
                         activeLayout: el
                     })
