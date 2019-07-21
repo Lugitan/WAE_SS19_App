@@ -3,6 +3,8 @@
 import React from 'react';
 import {Responsive, WidthProvider, GridLayout} from 'react-grid-layout'; // Source: https://github.com/STRML/react-grid-layout
 import { Card, Icon } from 'semantic-ui-react';
+import { withRouter } from 'react-router-dom'
+import Page from './Page';
 
 import './../styles/grid.css';
 import './../../node_modules/react-grid-layout/css/styles.css';
@@ -10,7 +12,7 @@ import './../../node_modules/react-resizable/css/styles.css';
 
 const ResponsiveGridLayout = WidthProvider(Responsive);
 
-export default class Grid extends React.Component {
+class Grid extends React.Component {
 
     // static layout = [
     //     { i: 'ad', x: 0, y: 0, w: 1, h: 2 , static: true},
@@ -87,7 +89,7 @@ export default class Grid extends React.Component {
         }
         
         return (
-            <div>
+            <Page>
                 <ResponsiveGridLayout className="layout" layouts={this.state.layout}
                     breakpoints={{lg: 1600, md: 996, sm: 768, xs: 480, xxs: 0}}
                     cols={{lg: 12, md: 10, sm: 6, xs: 4, xxs: 2}}
@@ -110,7 +112,9 @@ export default class Grid extends React.Component {
                     <div key="f" name="article">3</div> */}
                     {this.generateDOM()}
                 </ResponsiveGridLayout>
-            </div> 
+            </Page>
         )
     }
 }
+
+export default withRouter(Grid);

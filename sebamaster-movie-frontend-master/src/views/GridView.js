@@ -101,7 +101,7 @@ export class GridView extends React.Component {
         }
 
         return (
-            <Grid layout={this.state.activeLayout} onUserLogin={(id) => {this.selectLayout(id)}} onUserLogout={() => {this.selectDefaultLayout}}></Grid>
+            <Grid layout={this.state.activeLayout} onUserLogin={(id) => {this.selectLayout(id)}} onUserLogout={() => {this.selectDefaultLayout}} />
         )
     }
 }

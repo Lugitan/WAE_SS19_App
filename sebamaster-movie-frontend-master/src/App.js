@@ -22,7 +22,7 @@ export default class App extends React.Component {
         this.state = {
             title: 'UNODIS',
             routes: [
-                { component: GridView , path: '/', exact: true},
+                { component: GridView, path: '/'},
                 { component: MovieDetailView , path: '/show/:id'},
                 { render: (props) => {
                         if(UserService.isAuthenticated()) {
@@ -54,7 +54,7 @@ export default class App extends React.Component {
             <div>
                 <Router>
                     <Switch>
-                        {this.state.routes.map((route, i) => (<Route key={i} {...route}/>) )}
+                        {this.state.routes.map((route, i) => (<Route key={i} {...route}/>))}
                     </Switch>
                 </Router>
             </div>
