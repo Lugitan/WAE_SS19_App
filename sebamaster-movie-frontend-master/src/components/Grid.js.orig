@@ -57,8 +57,13 @@ class Grid extends React.Component {
 
     generateDOM() {
         var img = "";
+<<<<<<< HEAD
+        console.log(this.state.layout);
+        return _.map(this.state.layout.grid, function(l, i) {
+=======
         console.log(this.state.layout.grid.lg);
         return _.map(this.state.layout.grid.lg, function(l, i) {
+>>>>>>> feature-jamal
             var rand = Math.random();
             if(rand < 0.3) {
                 img = "https://cdn.dribbble.com/users/227808/screenshots/1442473/swim-ad.gif"
@@ -68,15 +73,14 @@ class Grid extends React.Component {
                 img = "https://techcrunch.com/wp-content/uploads/2015/08/safe_image.gif"
             }
             return (
-                <div key={l.i} className={l.static ? "static" : ""}>
-                {l.static ? (
+                <div key={l.lg.i} className={l.lg.static ? "static" : ""}>
+                {l.lg.static ? (
                     <img src={img} alt="ad" className="ad" />
-                ) : (l.type == "match" ? (
+                ) (l.type == "match" ? (
                     <Match></Match>
-                ) : (l.type == "table" ? (
-                    <p>table</p>
-                ): "")
-                )
+                ) (l.type == "table" ? (
+                    <p></p>
+                ): "") : "") : ""
             }
             </div>
             );
@@ -95,7 +99,7 @@ class Grid extends React.Component {
     render() {
         return (
             <Page>
-                <ResponsiveGridLayout className="layout" layouts={this.state.layout.grid}
+                <ResponsiveGridLayout className="layout" layouts={this.state.layout}
                     breakpoints={{lg: 1600, md: 996, sm: 768, xs: 480, xxs: 0}}
                     cols={{lg: 12, md: 10, sm: 6, xs: 4, xxs: 2}}
                     isDraggable={true} 
