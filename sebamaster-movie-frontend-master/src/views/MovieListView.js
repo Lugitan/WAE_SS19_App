@@ -6,9 +6,6 @@ import { MovieList } from '../components/MovieList';
 
 import MovieService from '../services/MovieService';
 
-import ArticleService from '../services/ArticleService' // get data of the articles
-
-
 export class MovieListView extends React.Component {
 
     constructor(props) {

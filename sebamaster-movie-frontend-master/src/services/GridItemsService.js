@@ -7,9 +7,9 @@ export default class ArticleService {
     constructor(){
     }
 
-    static baseURL() {return "http://localhost:3000/article" }
+    static baseURL() {return "http://localhost:3000/gridLayouts" }
 
-    static getArticles(){
+    static getDefaultGrid(){
         return new Promise((resolve, reject) => {
             HttpService.get(this.baseURL(), function(data) {
                 resolve(data);
