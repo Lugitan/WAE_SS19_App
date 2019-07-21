@@ -10,6 +10,8 @@ import MatchElement from './GridElements/Match';
 import './../styles/grid.css';
 import './../../node_modules/react-grid-layout/css/styles.css';
 import './../../node_modules/react-resizable/css/styles.css';
+import UserService from './../services/UserService';
+
 
 const ResponsiveGridLayout = WidthProvider(Responsive);
 
@@ -44,6 +46,7 @@ class Grid extends React.Component {
         }
 
         this.handleItemSelect = this.handleItemSelect.bind(this);
+        this.handleChange = this.handleChange.bind(this);
     }
 
     handleItemSelect() {(e, name) => {
@@ -52,6 +55,7 @@ class Grid extends React.Component {
 
     generateDOM() {
         var img = "";
+        console.log(this.state.layout.lg);
         return _.map(this.state.layout.lg, function(l, i) {
             var rand = Math.random();
             if(rand < 0.3) {
@@ -75,9 +79,16 @@ class Grid extends React.Component {
         });
     }
 
-    handleChange(current, all) {
-        console.log(current);
+    handleChange(current,   all){
+        //console.log(current);
+        //UserService.login(UserService.getCurrentUser().username, UserService.getCurrentUser().pass);
+        //console.log(UserService.getCurrentUser().pass);
+        //console.log(UserService.getCurrentUser().lg[0].y);
+
+        //console.log(current);
     }
+
+
 
     render() {
         var layouts = {
@@ -103,7 +114,7 @@ class Grid extends React.Component {
                     verticallyCompact={true}
                     preventCollision={false}
                     rowHeight={100}
-                    // onLayoutChange={this.handleChange}
+                    onLayoutChange={this.handleChange}
                 >
                     {/* <div key="ad1" name="ad1">
                         <img src="https://cdn.dribbble.com/users/227808/screenshots/1442473/swim-ad.gif" alt="ad" className="ad" /> 

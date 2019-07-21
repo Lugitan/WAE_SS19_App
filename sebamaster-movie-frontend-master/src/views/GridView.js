@@ -3,6 +3,8 @@
 import React from 'react';
 import GridItemsService from '../services/GridItemsService';
 import Grid from '../components/Grid'
+import UserService from './../services/UserService';
+
 
 export class GridView extends React.Component {
 
@@ -18,6 +20,8 @@ export class GridView extends React.Component {
     }
 
     componentWillMount(){
+        //console.log(UserService.getCurrentUser().lg[0].y);
+
         var layouts = [
             {
                 id:"test",
@@ -25,7 +29,7 @@ export class GridView extends React.Component {
                 lg: [
                     { i: 'ad1', x: 0, y: 0, w: 1, h: 2 , static: true},
                     { i: 'ad2', x: 12, y: 0, w: 1, h: 3 , static: true},
-                    { i: 'e', x: 1,y: 0, w: 3, h: 1 , static: false},
+                    { i: 'e', x: 1,y: 10, w: 3, h: 1 , static: false},
                     { i: 'f', x: 4, y: 0, w: 5, h: 2 , static: false},
                 ]
             },
@@ -47,7 +51,7 @@ export class GridView extends React.Component {
             data: [...layouts]
         });
 
-        if(!this.state.userLoggedIn) {
+        if(!UserService.isAuthenticated()) {
             layouts.forEach(el => {
                 if(el.default) {
                     this.setState({
@@ -56,7 +60,14 @@ export class GridView extends React.Component {
                 }
             })
         } else {
-            // TODO Userservice things
+            console.log(UserService.getCurrentUser().lg);
+            layouts.forEach(el => {
+                if(true) {
+                    this.setState({
+                        activeLayout: UserService.getCurrentUser().lg
+                        })
+                }
+            })
         }
 
         // console.log("default grid found");
