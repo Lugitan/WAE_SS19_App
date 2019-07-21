@@ -7,6 +7,8 @@ import { Card, Icon } from 'semantic-ui-react';
 import './../styles/grid.css';
 import './../../node_modules/react-grid-layout/css/styles.css';
 import './../../node_modules/react-resizable/css/styles.css';
+import UserService from './../services/UserService';
+
 
 const ResponsiveGridLayout = WidthProvider(Responsive);
 
@@ -69,6 +71,10 @@ export default class Grid extends React.Component {
 
     handleChange(current,   all){
         console.log(current);
+        //UserService.login(UserService.getCurrentUser().username, UserService.getCurrentUser().pass);
+        console.log(UserService.getCurrentUser().pass);
+        //console.log(UserService.getCurrentUser().id);
+
     }
 
 

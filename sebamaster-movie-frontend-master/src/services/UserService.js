@@ -45,10 +45,13 @@ export default class UserService {
 
         let base64Url = token.split('.')[1];
         let base64 = base64Url.replace('-', '+').replace('_', '/');
+        console.log(base64);
         return {
             id : JSON.parse(window.atob(base64)).id,
-            username: JSON.parse(window.atob(base64)).username
+            username: JSON.parse(window.atob(base64)).username,
+            lg: JSON.parse(window.atob(base64)).lg
         };
+
     }
 
     static isAuthenticated() {
