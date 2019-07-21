@@ -20,7 +20,8 @@ class Header extends React.Component {
             activeItem: 'ow',
             suggestions: [],
             sideBar: false,
-            url : ''
+            url : '',
+            history
         }
 
         //test
@@ -70,6 +71,7 @@ class Header extends React.Component {
     handleItemClick(e, name) {this.setState(state => ({
          activeItem: name.name
         }));
+        this.props.history.push('/')
     }
 
     handleTeamSearch(e) {
@@ -157,7 +159,6 @@ class Header extends React.Component {
             //     title={this.props.title}
             //     actions={<KebabMenu id="toolbar-colored-kebab-menu" />}>
             // </Toolbar>
-
 
         );
     }

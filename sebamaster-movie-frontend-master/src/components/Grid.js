@@ -5,6 +5,7 @@ import {Responsive, WidthProvider, GridLayout} from 'react-grid-layout'; // Sour
 import { Card, Icon } from 'semantic-ui-react';
 import { withRouter } from 'react-router-dom'
 import Page from './Page';
+import MatchElement from './GridElements/Match';
 
 import './../styles/grid.css';
 import './../../node_modules/react-grid-layout/css/styles.css';
@@ -65,7 +66,9 @@ class Grid extends React.Component {
                 {l.static ? (
                     <img src={img} alt="ad" className="ad" />
                 ) : (
-                <span className="text">{i}</span>
+                <div>
+                    <MatchElement></MatchElement>
+                </div>
                 )}
             </div>
             );
