@@ -84,7 +84,18 @@ class Grid extends React.Component {
     }
 
     handleChange(current,   all){
+
+
+
         if(UserService.isAuthenticated()){
+
+        current.forEach((el) => {
+            if(el.i == "e") {
+                el.type = "match"
+            } else if(el.i == "f") {
+                el.type = "match"
+            }
+        })
             var saved = {
                 grid:
                 {
@@ -94,6 +105,9 @@ class Grid extends React.Component {
 
             UserService.updateLayout(saved, UserService.getCurrentUser().id);
             console.log("auth");
+
+            //workaround for saving grid
+            UserService.login("Tester","a");
         }
     }
 

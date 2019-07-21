@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98b51b08-0f91-452d-962e-2394bf0a5803" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sebamaster-movie-backend-master/src/controllers/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/sebamaster-movie-backend-master/src/controllers/auth.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sebamaster-movie-frontend-master/src/components/Grid.js" beforeDir="false" afterPath="$PROJECT_DIR$/sebamaster-movie-frontend-master/src/components/Grid.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sebamaster-movie-frontend-master/src/components/KebabMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/sebamaster-movie-frontend-master/src/components/KebabMenu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sebamaster-movie-frontend-master/src/services/UserService.js" beforeDir="false" afterPath="$PROJECT_DIR$/sebamaster-movie-frontend-master/src/services/UserService.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +18,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sebamaster-movie-frontend-master/src/services/UserService.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="56" column="26" selection-start-line="56" selection-start-column="11" selection-end-line="56" selection-end-column="26" />
+            <state relative-caret-position="113">
+              <caret line="24" column="16" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -36,8 +32,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sebamaster-movie-frontend-master/src/components/Grid.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-136">
-              <caret line="90" column="31" selection-start-line="90" selection-start-column="31" selection-end-line="90" selection-end-column="31" />
+            <state relative-caret-position="225">
+              <caret line="95" column="25" selection-start-line="95" selection-start-column="25" selection-end-line="95" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -284,8 +280,8 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1981402" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49910232" visible="true" weight="0.1981402" />
+      <window_info active="true" id="Structure" order="1" sideWeight="0.50089765" side_tool="true" visible="true" weight="0.1981402" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -574,15 +570,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sebamaster-movie-frontend-master/src/services/UserService.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="56" column="26" selection-start-line="56" selection-start-column="11" selection-end-line="56" selection-end-column="26" />
+        <state relative-caret-position="113">
+          <caret line="24" column="16" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sebamaster-movie-frontend-master/src/components/Grid.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-136">
-          <caret line="90" column="31" selection-start-line="90" selection-start-column="31" selection-end-line="90" selection-end-column="31" />
+        <state relative-caret-position="225">
+          <caret line="95" column="25" selection-start-line="95" selection-start-column="25" selection-end-line="95" selection-end-column="25" />
         </state>
       </provider>
     </entry>
