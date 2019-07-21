@@ -53,10 +53,12 @@ class Grid extends React.Component {
         console.log(name);
     }}
 
+
+
     generateDOM() {
         var img = "";
-        console.log(this.state.layout);
-        return _.map(this.state.layout.lg, function(l, i) {
+        console.log(this.state.layout.grid.lg);
+        return _.map(this.state.layout.grid.lg, function(l, i) {
             var rand = Math.random();
             if(rand < 0.3) {
                 img = "https://cdn.dribbble.com/users/227808/screenshots/1442473/swim-ad.gif"
