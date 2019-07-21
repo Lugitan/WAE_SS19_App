@@ -3,16 +3,12 @@
 import React from 'react';
 import { HashRouter as Router, Route, Switch, Redirect } from 'react-router-dom';
 
-import { MovieListView } from './views/MovieListView';
-import { MovieDetailView }   from './views/MovieDetailView';
-import { MovieFormView }   from './views/MovieFormView';
 import { UserLoginView } from "./views/UserLoginView";
 import { UserSignupView } from "./views/UserSignupView";
 import { SearchView } from "./views/SearchView";
 import { GridView } from "./views/GridView"
 
 import UserService from "./services/UserService";
-
 
 export default class App extends React.Component {
 
@@ -23,21 +19,20 @@ export default class App extends React.Component {
             title: 'UNODIS',
             routes: [
                 { component: GridView, path: '/', exact: true},
-                { component: MovieDetailView , path: '/show/:id'},
-                { render: (props) => {
-                        if(UserService.isAuthenticated()) {
-                            return (<MovieFormView {... props} />)
-                        }
-                        else {
-                            return (<Redirect to={'/login'}/>)
-                        }} , path: '/edit/:id'},
-                { render: (props) => {
-                    if(UserService.isAuthenticated()) {
-                        return (<MovieFormView {... props} />)
-                    }
-                    else {
-                        return (<Redirect to={'/login'}/>)
-                    }}, path: '/add',},
+                // { render: (props) => {
+                //         if(UserService.isAuthenticated()) {
+                //             return (<MovieFormView {... props} />)
+                //         }
+                //         else {
+                //             return (<Redirect to={'/login'}/>)
+                //         }} , path: '/edit/:id'},
+                // { render: (props) => {
+                //     if(UserService.isAuthenticated()) {
+                //         return (<MovieFormView {... props} />)
+                //     }
+                //     else {
+                //         return (<Redirect to={'/login'}/>)
+                //     }}, path: '/add',},
                 { component: UserLoginView, path: '/login'},
                 { component: UserSignupView, path: '/register'},
                 { component: SearchView, path: '/search/:team_name'}

@@ -11,7 +11,6 @@ import './../../node_modules/react-grid-layout/css/styles.css';
 import './../../node_modules/react-resizable/css/styles.css';
 import UserService from './../services/UserService';
 
-
 const ResponsiveGridLayout = WidthProvider(Responsive);
 
 class Grid extends React.Component {

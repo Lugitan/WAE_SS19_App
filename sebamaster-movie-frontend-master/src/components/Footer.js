@@ -3,7 +3,6 @@
 import React from 'react';
 import Styled from 'styled-components';
 
-
 class PlainFooter extends React.Component {
 
     constructor(props) {

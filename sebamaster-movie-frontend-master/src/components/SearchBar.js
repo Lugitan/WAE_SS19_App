@@ -4,7 +4,6 @@ import autoBind from 'react-autobind';
 import classNames from 'classnames';
 import htmlElementAttributes from 'react-html-attributes';
 import { debounce, isNil, pick } from 'lodash';
-import Suggestions from './Suggestions';
 
 class SearchBar extends React.Component {
   constructor(props) {
