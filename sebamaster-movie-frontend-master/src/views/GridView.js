@@ -33,7 +33,14 @@ export class GridView extends React.Component {
                     { i: 'ad1', x: 0, y: 0, w: 1, h: 2 , static: true},
                     { i: 'ad2', x: 12, y: 0, w: 1, h: 3 , static: true},
                     { i: 'e', x: 1,y: 10, w: 3, h: 1 , static: false , type: "match"},
-                    { i: 'f', x: 4, y: 0, w: 5, h: 2 , static: false, type: "table"},
+                    { i: 'f', x: 4, y: 0, w: 3, h: 1 , static: false, type: "match"},
+                    { i: 'g', x: 1, y: 2, w: 3, h: 1 , static: false, type: "match"},
+                    { i: 'h', x: 1, y: 3, w: 3, h: 1 , static: false, type: "match"},
+                    { i: 'i', x: 1, y: 4, w: 3, h: 1 , static: false, type: "match"},
+                    { i: 'j', x: 4, y: 0, w: 3, h: 1 , static: false, type: "match"},
+                    { i: 'k', x: 4, y: 1, w: 3, h: 1 , static: false, type: "match"},
+                    { i: 'l', x: 4, y: 2, w: 3, h: 1 , static: false, type: "match"},
+                    { i: 'm', x: 4, y: 3, w: 3, h: 1 , static: false, type: "match"},
                 ]
             }},
             {

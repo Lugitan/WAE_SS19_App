@@ -57,12 +57,27 @@ class Grid extends React.Component {
 
         if (UserService.isAuthenticated()) {
 
+            // TODO Create dynamic component reader 
             current.forEach((el) => {
                 if (el.i == "e") {
                     el.type = "match"
                 } else if (el.i == "f") {
                     el.type = "match"
-                }
+                } else if (el.i == "g") {
+                    el.type = "match"
+                } else if (el.i == "h") {
+                    el.type = "match"
+                } else if (el.i == "i") {
+                    el.type = "match"
+                } else if (el.i == "j") {
+                    el.type = "match"
+                } else if (el.i == "k") {
+                    el.type = "match"
+                } else if (el.i == "l") {
+                    el.type = "match"
+                } else if (el.i == "m") {
+                    el.type = "match"
+                } 
             })
             var saved = {
                 grid:
