@@ -53,9 +53,8 @@ class Grid extends React.Component {
     }}
 
     generateDOM() {
-
-
         var img = "";
+        console.log(this.state.layout.lg);
         return _.map(this.state.layout.lg, function(l, i) {
             var rand = Math.random();
             if(rand < 0.3) {
@@ -78,11 +77,12 @@ class Grid extends React.Component {
     }
 
     handleChange(current,   all){
-        console.log(current);
+        //console.log(current);
         //UserService.login(UserService.getCurrentUser().username, UserService.getCurrentUser().pass);
-        console.log(UserService.getCurrentUser().pass);
-        //console.log(UserService.getCurrentUser().id);
-        console.log(current);
+        //console.log(UserService.getCurrentUser().pass);
+        //console.log(UserService.getCurrentUser().lg[0].y);
+
+        //console.log(current);
     }
 
 
@@ -111,7 +111,7 @@ class Grid extends React.Component {
                     verticallyCompact={true}
                     preventCollision={false}
                     rowHeight={100}
-                    // onLayoutChange={this.handleChange}
+                    onLayoutChange={this.handleChange}
                 >
                     {/* <div key="ad1" name="ad1">
                         <img src="https://cdn.dribbble.com/users/227808/screenshots/1442473/swim-ad.gif" alt="ad" className="ad" /> 

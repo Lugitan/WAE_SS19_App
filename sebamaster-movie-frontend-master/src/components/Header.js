@@ -8,7 +8,6 @@ import SearchBar from './SearchBar';
 import styles from './../styles/demo.css';
 import { Toolbar } from 'react-md';
 import words from './words.json';
-import {Toolbar} from 'react-md';
 
 import KebabMenu from './KebabMenu';
 
